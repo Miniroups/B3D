@@ -1,0 +1,181 @@
+/* RESET **********************************************************************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, button { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+input, textarea { margin: 0; }
+
+button { border: 0; padding: 0; }
+
+/******************************************************************************/
+
+body { font-family: sans-serif; padding: 2em; }
+
+hr { width: 75%; margin: 2em auto; }
+
+h1 { font-size: 2em; font-weight: bold; margin-bottom: 1em; }
+
+h2 { font-size: 1.5em; margin-bottom: 1em; }
+
+/******************************************************************************/
+
+#color-set-chooser {
+
+  display: flex; justify-content: space-between; align-items: stretch;
+
+  margin-top: 1em;
+}
+
+.color-set {
+
+  display: flex; flex-direction: column;
+
+  justify-content: center; align-items: center;
+
+  width: 32%;
+}
+
+.color-set > div:first-child {
+
+  height: 100%; background-color: #ddd;
+
+  border: 1px solid #777; border-radius: 0.25em;
+}
+
+.color-set a {
+
+  display: block; padding: 0.5em;
+
+  text-decoration: none; outline: none; color: #000;
+}
+
+.color-set a img { display: block; width: 100%; }
+
+.color-set .name { display: block; font-weight: bold; margin-top: 1em; }
+
+/******************************************************************************/
+
+#logo-chooser {
+
+  display: flex; justify-content: space-between; align-items: center;
+
+  margin-top: 1em;
+}
+
+.logo-panel {
+
+  display: flex; flex-direction: column;
+
+  justify-content: space-between; align-items: center;
+
+  width: 32%;
+}
+
+.logo-panel > div:first-child {
+
+  width: 100%; background-color: #ddd;
+
+  border: 1px solid #777; border-radius: 0.25em;
+}
+
+.logo-panel .name { font-weight: bold; margin-top: 0.5em; }
+
+.logo-panel a { display: block; width: 100%; padding: 1em; }
+
+.logo-panel a img { display: block; width: 100%; margin: 0 auto; background-color: #fff; }
+
+/******************************************************************************/
+
+#favicon-chooser {
+
+  display: flex; justify-content: space-around; align-items: center;
+
+  margin-top: 1em;
+}
+
+.favicon-panel {
+
+  display: flex; flex-direction: column;
+
+  justify-content: space-between; align-items: center;
+
+  width: 10%;
+}
+
+.favicon-panel > div:first-child {
+
+  width: 100%; background-color: #ddd;
+
+  border: 1px solid #777; border-radius: 0.25em;
+}
+
+.favicon-panel .name { font-weight: bold; margin-top: 0.5em; }
+
+.favicon-panel a { display: block; width: 100%; padding: 1em; }
+
+.favicon-panel a img { display: block; width: 100%; margin: 0 auto; background-color: #fff; }
+
+/******************************************************************************/
+
+#font-chooser {
+
+  display: flex; justify-content: space-around; align-items: center;
+
+  margin-top: 1em;
+}
+
+.font-panel {
+
+  display: flex; flex-direction: column;
+
+  justify-content: space-between; align-items: center;
+
+  width: 30%;
+}
+
+.font-panel > div:first-child {
+
+  width: 100%; background-color: #ddd;
+
+  border: 1px solid #777; border-radius: 0.25em;
+}
+
+.font-panel .name { font-weight: bold; margin-top: 0.5em; }
+
+.font-panel a { display: block; width: 100%; padding: 1em; }
+
+.font-panel a img { display: block; width: 100%; margin: 0 auto; background-color: #fff; }
+
+/******************************************************************************/
+
+#font-samples {
+
+  margin-top: 1em; padding: 1em;
+
+  background-color: #ddd;
+
+  border: 1px solid #777; border-radius: 0.25em;
+}
+
+#font-samples .font-sample + .font-sample { margin-top: 1em; }
+
+#font-samples .font-name { font-weight: bold; }
+
+#font-samples .font-sample-text { background-color: #fff; margin-top: 1em; padding: 0.5em; }
+
+.raleway { font-family: 'Roboto', sans-serif; }
+
+.roboto { font-family: 'Raleway', sans-serif; }
+
+/******************************************************************************/
