@@ -110,7 +110,7 @@ h2 { font-size: 1.5em; margin-bottom: 1em; }
 
   justify-content: space-between; align-items: center;
 
-  width: 10%;
+  width: auto; /* favicon size */
 }
 
 .favicon-panel > div:first-child {
@@ -122,7 +122,7 @@ h2 { font-size: 1.5em; margin-bottom: 1em; }
 
 .favicon-panel .name { font-weight: bold; margin-top: 0.5em; }
 
-.favicon-panel a { display: block; width: 100%; padding: 1em; }
+.favicon-panel a { display: block; width: 100%; padding: 0.25em; }
 
 .favicon-panel a img { display: block; width: 100%; margin: 0 auto; background-color: #fff; }
 
