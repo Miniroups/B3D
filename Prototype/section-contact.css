@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+  @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/* RESET MARGIN */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* SECTION CONTACT */
+#section-contact {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  min-height: 300px;
+  box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.75);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #97423f;
+  margin: 0 auto;
+}
+
+#section-contact>div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+
+#p-section-contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 3px;
+  color: #fff;
+}
+
+#p-section-contact span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #570d0b;
+}
+
+img {
+  border-radius: 5px;
+  border: 5px double #570d0b;
+}
+h3 {
+  align-self: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  img {
+    display: none;
+  }
+  #section-contact>div {
+    width: auto;
+  }
+}
