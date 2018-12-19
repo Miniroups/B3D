@@ -4,7 +4,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, button { display: block; }
 
-body { line-height: 1; }
+body { line-height: 1.2; }
 
 ol, ul { list-style: none; }
 
@@ -16,7 +16,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 input, textarea { margin: 0; }
 
-button { border: 0; padding: 0; }
+button { margin: 0; padding: 0; border: 0; font: 400 100% sans-serif; vertical-align: baseline; }
 
 /******************************************************************************/
 
