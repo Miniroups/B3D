@@ -16,11 +16,11 @@ footer {
   font-size: 0.75em;
 }
 
-#legals p a {
+#legals a {
   color: #FFF;
   text-decoration: underline;
 }
 
-#legals p a:hover {
+#legals a:hover {
   color: black;
 }
