@@ -1,0 +1,23 @@
+footer {
+  font-family: "calibri", sans-serif;
+  background-color: #570d0b;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#copyright {
+  font-size: 0.75em;
+}
+
+#legals p {
+  font-size: 0.75em;
+}
+
+#legals p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#legals p a:hover {
+  color: black;
+}

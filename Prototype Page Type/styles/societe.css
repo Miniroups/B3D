@@ -1,0 +1,62 @@
+/* PAGE SOCIETE */
+.coeur {
+  min-height: 1000px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.encart, .invert-encart {
+  display: flex;
+  padding: 80px 0 80px 0;
+  border-bottom: 10px solid #572e0b;
+  border-top: 10px solid #572e0b;
+  /* Create the parallax scrolling effect */
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .5);
+  background-image: url(../images/background-forest.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.encart {
+  flex-direction: row;
+}
+
+.invert-encart {
+  flex-direction: row-reverse;
+}
+
+.encart h3, .invert-encart h3 {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}
+
+.encart h3 {
+  margin-left: 50px;
+}
+
+.invert-encart h3 {
+  margin-right: 50px;
+}
+
+.encart p, .invert-encart p {
+  margin: auto 50px;
+  align-self: center;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  .encart, .invert-encart {
+    flex-direction: column;
+  }
+
+  .encart h3, .invert-encart h3 {
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/* GENERAL */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #331800 !important;
+}
+h3 {
+  align-self: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}
