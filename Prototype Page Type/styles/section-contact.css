@@ -47,7 +47,7 @@
 
  /* MEDIA QUERY */
  @media (max-width: 768px) {
-   img {
+   #section-contact img {
      display: none;
    }
 

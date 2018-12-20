@@ -3,6 +3,10 @@ footer {
   background-color: #570d0b;
   color: #fff;
   margin-top: 10px;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #copyright {
@@ -20,4 +24,11 @@ footer {
 
 #legals p a:hover {
   color: black;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
 }
