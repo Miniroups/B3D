@@ -41,4 +41,4 @@
     </ul>
   </nav>
 </header>
-<script src="scripts/header.js"></script>
+
