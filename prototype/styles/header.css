@@ -112,7 +112,7 @@ nav.sauge a:hover {
 
   nav.sauge ul li {
     position: relative;
-    width: 9em;
+    width: 10em;
   }
 
   nav.sauge>ul>li>ul {
@@ -151,7 +151,7 @@ nav.sauge a:hover {
   }
 
   nav.sauge>ul>li+li>ul>li {
-    width: calc(9em + 1px);
+    width: calc(10em + 1px);
   }
 
   nav.sauge a {
