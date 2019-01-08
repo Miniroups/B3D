@@ -18,11 +18,20 @@ body {
   border-top: 10px solid #572e0b;
   /* Create the parallax scrolling effect */
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .5);
-  background-image: url(../images/background-accueil.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#encart1 {
+  background-image: url(../images/background-accueil.jpg);
+}
+#encart2 {
+  background-image: url(../images/background-forest.jpg);
+}
+#encart3 {
+  background-image: url(../images/background-piquet.jpg);
 }
 
 .encart {
