@@ -13,17 +13,17 @@ footer {
   font-size: 0.75em;
 }
 
-#legals p {
-  font-size: 0.75em;
-}
-
-#legals a {
-  color: #fff !important;
+#legals {
+  color: #fff;
   text-decoration: underline;
 }
 
-#legals a:hover {
-  color: black;
+#legals:hover {
+  color: #aaa;
+}
+
+#legals:visited {
+  color: #330100;
 }
 
 /* MEDIA QUERY */
