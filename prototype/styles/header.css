@@ -4,7 +4,6 @@ header {
   justify-content: center;
   padding: 1em;
   background-color: #570d0b;
-  /* border: 1px solid black; */
 }
 
 header ul {
@@ -28,10 +27,7 @@ header img {
 
 .nav-toggle {
   padding: 0.1em 0.4em 0.35em;
-  /* background: #fff85e; */
-  /* border: 1px solid #777;
   border-radius: 0.25em;
-  box-shadow: inset 1px 1px 2px 0 #c4bb00, inset -1px -1px 2px 0 #c4bb00; */
 }
 
 .nav-toggle:hover {
@@ -40,8 +36,6 @@ header img {
 
 .nav-toggle:focus, .nav-toggle:active {
   background: #fb3;
-  /* border-color: #888;
-  box-shadow: inset 1px 1px 2px 0 #ffcc66, inset -1px -1px 2px 0 #ffcc66; */
 }
 
 .nav-toggle .icon-bar {
@@ -50,18 +44,14 @@ header img {
   height: 0.5em;
   margin-top: 0.25em;
   background-color: #aaa;
-  /* border: 1px solid #777;
-  border-radius: 0.25em; */
+  border: 1px solid #777;
+  border-radius: 0.25em;
 }
 
 nav.sauge {
   position: relative;
   width: 100%;
   padding: 1em;
-  /* background-color: #a6c3a4;
-  background-image: linear-gradient(to bottom right, #c4d9c6, #759273);
-  border: 1px solid #666;
-  outline: inset 1px #fff; */
 }
 
 nav.sauge a {
