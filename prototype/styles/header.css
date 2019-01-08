@@ -3,9 +3,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
   background-color: #570d0b;;
-  /* border: 1px solid black; */
 }
 
 .nav-toggle {
@@ -59,6 +57,8 @@ nav.sauge a:hover {
   background-color: #a891cc;
   color: #fff;
 }
+
+nav.sauge>ul { margin-top: 0; margin-bottom: 0; }
 
 @media (max-width: 991px) {
   nav.sauge .nav-toggle {
