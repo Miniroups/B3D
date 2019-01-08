@@ -1,6 +1,6 @@
 <header>
-  <img class="navbar-brand" src="images/logo.png" style="max-height: 90px">
   <nav class="sauge">
+    <img src="images/logo.png">
     <div class="nav-toggle">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -9,36 +9,35 @@
 
     <ul>
       <li>
-        <a href="#">Accueil</a>
+        <a href="index.php">Accueil</a>
       </li>
 
       <li>
-        <a href="#">Société</a>
+        <a href="societe.php">Société</a>
       </li>
 
       <li>
         <a href="#">Produits</a>
         <ul>
-          <li><a href="#">Acacia</a></li>
-          <li><a href="#">Pin</a></li>
-          <li><a href="#">Châtaigner</a></li>
-          <li><a href="#">Bois de chauffe</a></li>
+          <li><a id="testRouge" href="produits.php">Acacia</a></li>
+          <li><a href="produits.php">Pin</a></li>
+          <li><a href="produits.php">Châtaigner</a></li>
+          <li><a href="produits.php">Bois de chauffe</a></li>
         </ul>
       </li>
 
       <li>
-        <a href="#">Contact</a>
+        <a href="contact-form.php">Contact</a>
       </li>
       <li>
         <a href="#">Langues</a>
         <ul>
-          <li><a href="#">Français</a></li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">Español</a></li>
-          <li><a href="#">Deutsch</a></li>
+          <li><a href="index.php">Français</a></li>
+          <li><a href="index.php">English</a></li>
+          <li><a href="index.php">Español</a></li>
+          <li><a href="index.php">Deutsch</a></li>
         </ul>
       </li>
     </ul>
   </nav>
 </header>
-<script src="scripts/header.js"></script>
