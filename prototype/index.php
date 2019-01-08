@@ -6,15 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Link CSS -->
-  <link rel="stylesheet" href="styles/global.css">
+  <?php include_once('styles-communs.php'); ?>
   <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/section-contact.css">
-  <link rel="stylesheet" href="styles/footer.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
-  <script src="scripts/header.js" type="text/javascript"></script>
   <title>B3D | Accueil</title>
 </head>
 
@@ -34,12 +27,8 @@
   <footer style="position: fixed; bottom: 0px; width: 100%">
     <?php include_once('footer.php'); ?>
   </footer>
-  <!-- Optional JavaScript -->
-  <script src="scripts/script.js"></script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- Script -->
+  <?php include_once('scripts-communs.php'); ?>
 </body>
 
 </html>

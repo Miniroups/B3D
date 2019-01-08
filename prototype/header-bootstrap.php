@@ -1,5 +1,3 @@
-<?php
-echo '
 <nav class="navbar navbar-expand-lg navbar-dark bg-light" style="background-color: #570d0b !important">
 <img class="navbar-brand" src="images/logo.png" style="max-width: 40px">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,4 +42,3 @@ echo '
 
 </div>
 </nav>
-';

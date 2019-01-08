@@ -1,5 +1,3 @@
-<?php
-echo '
 <section id="section-contact">
 <div id="p-section-contact">
 <h3>Restons en contact</h3>
@@ -12,4 +10,3 @@ echo '
 <img src="images/usine-vue-d-ensemble.jpg" alt="usine vue d\'ensemble">
 </div>
 </section>
-';

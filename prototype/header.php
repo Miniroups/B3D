@@ -8,32 +8,27 @@
 
 <ul>
 <li>
-<a href="#">Articles</a>
-<ul>
-<li><a href="#">Web Design</a></li>
-<li><a href="#">3D Graphics</a></li>
-<li><a href="#">Algorithms</a></li>
-</ul>
+<a href="#">Accueil</a>
 </li>
 
 <li>
-<a href="#">Tutorials</a>
+<a href="#">Société</a>
+</li>
+
+<li>
+<a href="#">Produits</a>
 <ul>
-<li><a href="#">HTML5</a></li>
-<li><a href="#">CSS3</a></li>
-<li><a href="#">JavaScript</a></li>
-<li><a href="#">PHP</a></li>
+<li><a href="#">Acacia</a></li>
+<li><a href="#">Pin</a></li>
+<li><a href="#">Châtaigner</a></li>
+<li><a href="#">Bois de chauffe</a></li>
 </ul>
 </li>
 
 <li>
 <a href="#">Contact</a>
-<ul>
-<li><a href="#">By email</a></li>
-<li><a href="#">By telephone</a></li>
-</ul>
 </li>
 </ul>
 </nav>
 </header>
-
+<script src="scripts/header.js"></script>
