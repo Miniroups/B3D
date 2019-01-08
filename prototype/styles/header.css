@@ -14,8 +14,18 @@ header ul {
 header img {
   max-height: 90px;
   position: absolute;
-  left: 0px;
+  left: 0;
+  z-index: 1;
 }
+
+@media (max-width: 991px) {
+
+header img {
+    left: 50%;
+    transform: translate(-50%, 0) scale(1.25);
+  }
+}
+
 .nav-toggle {
   padding: 0.1em 0.4em 0.35em;
   /* background: #fff85e; */
