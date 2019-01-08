@@ -1,4 +1,5 @@
 <header>
+  <img class="navbar-brand" src="images/logo.png" style="max-height: 90px">
   <nav class="sauge">
     <div class="nav-toggle">
       <span class="icon-bar"></span>
@@ -27,6 +28,15 @@
 
       <li>
         <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#">Langues</a>
+        <ul>
+          <li><a href="#">Français</a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">Español</a></li>
+          <li><a href="#">Deutsch</a></li>
+        </ul>
       </li>
     </ul>
   </nav>

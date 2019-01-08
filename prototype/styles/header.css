@@ -3,7 +3,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
   background-color: #570d0b;;
+  /* border: 1px solid black; */
+}
+
+header ul {
+  margin-bottom: 0;
 }
 
 .nav-toggle {
@@ -58,8 +64,6 @@ nav.sauge a:hover {
   color: #fff;
 }
 
-nav.sauge>ul { margin-top: 0; margin-bottom: 0; }
-
 @media (max-width: 991px) {
   nav.sauge .nav-toggle {
     float: right;
@@ -112,7 +116,7 @@ nav.sauge>ul { margin-top: 0; margin-bottom: 0; }
 
   nav.sauge ul li {
     position: relative;
-    width: 10em;
+    width: 9em;
   }
 
   nav.sauge>ul>li>ul {
@@ -151,7 +155,7 @@ nav.sauge>ul { margin-top: 0; margin-bottom: 0; }
   }
 
   nav.sauge>ul>li+li>ul>li {
-    width: calc(10em + 1px);
+    width: calc(9em + 1px);
   }
 
   nav.sauge a {
