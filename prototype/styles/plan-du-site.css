@@ -1,0 +1,56 @@
+/* planDuSite */
+body {
+  background-color: #570d0b;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#planDuSite {
+  background-color: #c09066;
+  width: 60%;
+  margin: auto;
+  min-height: 100%;
+}
+
+#planDuSite h1 {
+  align-self: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}
+
+#planDuSite ul {
+  margin: auto 50px;
+  padding: 10px;
+}
+
+#planDuSite li {
+  /* list-style: disclosure-closed; */
+}
+
+#planDuSite a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#planDuSite a:hover {
+  color: #aaa;
+}
+
+#planDuSite a:visited {
+  color: #330100;
+}
+
+#planDuSite ul li::before {
+  content: "\2B9E";
+  color: #330100;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
