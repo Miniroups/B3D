@@ -72,7 +72,7 @@
     <?php include('footer.php') ?>
 
 
-    <script type="text/javascript" href="header.js"></script>
+    <script type="text/javascript" href="scripts/header.js"></script>
 
   </body>
 </html>
