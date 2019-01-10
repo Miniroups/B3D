@@ -36,15 +36,11 @@
 
   <section id="photos">
 
-    <div class="bois">
-      <img src="images/Ac1.JPG" alt="Acacia n°1">
-      <img src="images/Ac2.JPG" alt="Acacia n°2">
-    </div>
+    <div><img src="images/Ac1.JPG" alt="Acacia n°1"></div>
+    <div><img src="images/Ac2.JPG" alt="Acacia n°2"></div>
 
-    <div class="bois">
-      <img src="images/Ac3.JPG" alt="Acacia n°3">
-      <img src="images/Ac4.JPG" alt="Acacia n°4">
-    </div>
+    <div><img src="images/Ac3.JPG" alt="Acacia n°3"></div>
+    <div><img src="images/Ac4.JPG" alt="Acacia n°4"></div>
 
   </section>
 
