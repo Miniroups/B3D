@@ -1,0 +1,39 @@
+/* MENTIONS */
+#mentions {
+  background-color: #c09066;
+}
+
+#mentions h1, h2 {
+  align-self: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}
+
+#mentions p{
+  margin: auto 50px;
+}
+
+#mentions ul {
+  margin: auto 100px;
+  padding: 10px;
+}
+
+#mentions li {
+  list-style: disclosure-closed;
+}
+
+#mentions a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#mentions a:hover {
+  color: #aaa;
+}
+
+#mentions a:visited {
+  color: #330100;
+}
