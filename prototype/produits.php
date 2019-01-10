@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Produits</title>
+    <title>B3D | Produits</title>
     <link rel="stylesheet" type="text/css" href="styles/produits.css">
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/global.css">
