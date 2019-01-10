@@ -89,11 +89,11 @@ nav.sauge a:hover {
     left: -1px;
     width: calc(100% + 2 * 1px);
     background-color: #e6e6fa;
-    background-image: url(../images/background-piquet.jpg);
+    background-image: url(../images/background-menu.jpg);
     background-size: cover;
     border: 1px solid #000;
     border-radius: 0.25em;
-    box-shadow: 2px 2px 10px #222, -2px 4px 10px #222;
+    box-shadow: 2px 2px 10px #000, -2px 4px 10px #000;
   }
 
   nav.sauge>ul>li>ul {
