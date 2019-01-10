@@ -1,19 +1,19 @@
 /* PAGE SOCIETE */
 body {
-  background-image: url(../images/background-wood.png) !important;
-  /* background-color: #97423f !important; */
+  /* background-image: url(../images/background-wood.png) !important; */
+  background-color: #c09066;
 }
 .coeur {
-  min-height: 1000px;
+  /* min-height: 1000px; */
   min-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .encart, .invert-encart {
   display: flex;
-  padding: 80px 0 80px 0;
+  padding: 80px 0;
   border-bottom: 10px solid #572e0b;
   border-top: 10px solid #572e0b;
   /* Create the parallax scrolling effect */

@@ -34,10 +34,7 @@
     <?php include_once('section-contact.php'); ?>
   </div>
   <!-- INCLUDE DU FOOTER -->
-  <footer>
-    <?php include_once('footer.php'); ?>
-  </footer>
-
+  <?php include_once('footer.php'); ?>
   <!-- Script -->
   <?php include_once('scripts-communs.php'); ?>
 </body>

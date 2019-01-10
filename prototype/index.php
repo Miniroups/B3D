@@ -24,9 +24,7 @@
     </ul>
   </section>
   <!-- INCLUDE DU FOOTER -->
-  <footer style="position: fixed; bottom: 0px; width: 100%">
-    <?php include_once('footer.php'); ?>
-  </footer>
+  <?php include_once('footer.php'); ?>
   <!-- Script -->
   <?php include_once('scripts-communs.php'); ?>
 </body>

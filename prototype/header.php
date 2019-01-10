@@ -17,9 +17,9 @@
       </li>
 
       <li>
-        <a href="#">Produits</a>
+        <a href="produits.php">Produits</a>
         <ul>
-          <li><a id="testRouge" href="produits.php">Acacia</a></li>
+          <li><a href="produits.php">Acacia</a></li>
           <li><a href="produits.php">Pin</a></li>
           <li><a href="produits.php">Châtaigner</a></li>
           <li><a href="produits.php">Bois de chauffe</a></li>
@@ -30,7 +30,7 @@
         <a href="contact-form.php">Contact</a>
       </li>
       <li>
-        <a href="#">Langues</a>
+        <a href="index.php">Langues</a>
         <ul>
           <li><a href="index.php">Français</a></li>
           <li><a href="index.php">English</a></li>

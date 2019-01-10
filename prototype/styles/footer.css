@@ -2,11 +2,14 @@ footer {
   font-family: "calibri", sans-serif;
   background-color: #570d0b;
   color: #fff;
-  margin-top: 10px;
-  display: flex !important;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+footer p, footer a {
+  margin: 10px 0;
 }
 
 #copyright {

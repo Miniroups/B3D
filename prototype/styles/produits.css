@@ -7,19 +7,17 @@ h3 {
   text-align: center;
 }
 
-#general, #details, #photos  {
+#produits, #details, #photos  {
   background-color: #97423F;
   color: #FFF;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   border: 1px solid black;
-  /* border-radius: 5px; */
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
 }
 
 #contact {
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   border: 1px solid black;
-  /* border-radius: 5px; */
 }
 
 #details, .bois {
@@ -29,9 +27,9 @@ h3 {
 
 .infos {
   flex-direction: column;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 
-img, .bois {
-  padding: 5px 5px 5px 5px;
+.bois img {
+  padding: 5px;
 }
