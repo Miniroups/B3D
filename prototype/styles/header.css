@@ -141,35 +141,18 @@ nav.sauge a:hover {
     position: absolute;
     left: 0;
     top: 100%;
+    width: 100%;
     z-index: 100000;
     transition: max-height 0 ease-in;
   }
 
   nav.sauge>ul>li:hover>ul {
     max-height: 1000%;
-    transition-duration: 1s;
+    transition-duration: 3s;
   }
 
   nav.sauge>ul>li {
     text-align: center;
-  }
-
-  nav.sauge>ul>li+li {
-    border-left: 0;
-  }
-
-  nav.sauge>ul>li>ul {
-    transform: translate(-1px, 1px);
-    border-top: 0;
-  }
-
-  nav.sauge>ul>li>ul>li {
-    border-top: 0;
-    text-align: left;
-  }
-
-  nav.sauge>ul>li+li>ul>li {
-    width: calc(10em + 1px);
   }
 
   nav.sauge a {
