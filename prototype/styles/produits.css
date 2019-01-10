@@ -1,0 +1,37 @@
+body {
+  background-image: url('images/Fond.jpg');
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+}
+
+#general, #details, #photos  {
+  background-color: #97423F;
+  color: #FFF;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+  margin: 20px 20px 20px 20px;
+}
+
+#contact {
+  margin: 20px 20px 20px 20px;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+}
+
+#details, .bois {
+  display: flex;
+  flex-direction: row;
+}
+
+.infos {
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+}
+
+img, .bois {
+  padding: 5px 5px 5px 5px;
+}

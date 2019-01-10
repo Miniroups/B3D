@@ -88,17 +88,13 @@ nav.sauge a:hover {
     top: calc(100% - 1px);
     left: -1px;
     width: calc(100% + 2 * 1px);
-    /* padding: 0.5em; */
     background-color: #e6e6fa;
-    /* border: 1px solid #000; */
-    /* border-radius: 0.25em; */
     background-image: url(../images/background-piquet.jpg);
     background-size: cover
   }
 
   nav.sauge>ul>li>ul {
     display: block;
-    /* margin-left: 2em; */
     width: 90%;
   }
 
@@ -107,10 +103,6 @@ nav.sauge a:hover {
     font-size: 1.2em;
     min-width: 60%;
     background-color: rgba(51, 1, 0, .8);
-    /* border: 1px solid #e6e6fa;
-    border-radius: 0.25em; */
-    /* margin: 0.5em;
-    padding: 0.25em; */
   }
 
   .sauge ul li ul li a {
@@ -159,7 +151,6 @@ nav.sauge a:hover {
   }
 
   nav.sauge>ul>li {
-    /* border: 1px solid #666; */
     text-align: center;
   }
 
@@ -173,7 +164,6 @@ nav.sauge a:hover {
   }
 
   nav.sauge>ul>li>ul>li {
-    /* border: 1px solid #666; */
     border-top: 0;
     text-align: left;
   }
