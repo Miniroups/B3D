@@ -34,13 +34,13 @@
       <section id="photos">
 
         <div class="bois">
-          <img src="images/Ac1.jpg" alt="Acacia n°1">
-          <img src="images/Ac2.jpg" alt="Acacia n°2">
+          <img src="images/Ac1.JPG" alt="Acacia n°1">
+          <img src="images/Ac2.JPG" alt="Acacia n°2">
         </div>
 
         <div class="bois">
-          <img src="images/Ac3.jpg" alt="Acacia n°3">
-          <img src="images/Ac4.jpg" alt="Acacia n°4">
+          <img src="images/Ac3.JPG" alt="Acacia n°3">
+          <img src="images/Ac4.JPG" alt="Acacia n°4">
         </div>
 
       </section>
@@ -72,7 +72,7 @@
     <?php include('footer.php') ?>
 
 
-    <script type="text/javascript" href="scripts/header.js"></script>
+    <?php include_once('scripts-communs.php'); ?>
 
   </body>
 </html>
