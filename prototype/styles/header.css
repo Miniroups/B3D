@@ -4,6 +4,8 @@ header {
   justify-content: center;
   padding: 1em;
   background-color: #570d0b;
+  z-index: 20; /* corrige le bug pour le form */
+  position: relative; /* corrige le bug pour le form */
 }
 
 header ul {

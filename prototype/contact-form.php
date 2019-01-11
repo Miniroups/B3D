@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Link CSS -->
   <?php include_once('styles-communs.php'); ?>
-  <link rel="stylesheet" href="styles/section-contact.css">
+  <link rel="stylesheet" href="styles/contact-form.css">
   <title>B3D | Contact</title>
 </head>
 
@@ -16,18 +16,9 @@
     <!-- INCLUDE DU HEADER -->
     <?php include('header.php'); ?>
     <!-- Coordonnées -->
-    <section id="section-contact">
-    <div id="p-section-contact">
-    <h3>Restons en contact</h3>
-    <p><span>Téléphone :</span> 01 23 45 67 89</p>
-    <p><span>Email :</span> julien.procedes@orange.fr</p>
-    <p><span>Adresse :</span> " l'Intendant " 47700 Poussignac</p>
-    <p><span>Horaire d\'ouverture :</span> Du lundi au vendredi de 8h à 17h00</p>
+    <div class="section-contact">
+      <?php include_once('section-contact.php'); ?>
     </div>
-    <div>
-    <img src="images/usine-vue-d-ensemble.jpg" alt="usine vue d\'ensemble">
-    </div>
-    </section>
     <!-- Formulaire -->
     <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" autocomplete="off">
 

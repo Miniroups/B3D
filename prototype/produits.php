@@ -16,21 +16,21 @@
 <body>
 
   <section id="produits">
-
-    <h3>Qualité</h3>
-
-    <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
-      sterneretur et lapidum.</p>
-
-    <h3>Durabilité</h3>
-
-    <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
-      sterneretur et lapidum.</p>
-
-    <h3>Ecologie</h3>
-
-    <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
-      sterneretur et lapidum.</p>
+    <div>
+      <h3>Qualité</h3>
+      <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
+        sterneretur et lapidum.</p>
+    </div>
+    <div>
+      <h3>Durabilité</h3>
+      <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
+        sterneretur et lapidum.</p>
+    </div>
+    <div>
+      <h3>Ecologie</h3>
+      <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium
+        sterneretur et lapidum.</p>
+    </div>
 
   </section>
 
@@ -46,22 +46,16 @@
 
   <section id="details">
 
-    <div class="infos">
-
+    <div>
       <h3>Format disponible</h3>
-
       <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
         repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-
     </div>
 
-    <div class="infos">
-
+    <div>
       <h3>Caractéristiques</h3>
-
       <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
         repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-
     </div>
 
   </section>

@@ -1,0 +1,4 @@
+form {
+  position: relative; /* corrige le bug pour le form */
+  z-index: 1; /* corrige le bug pour le form */
+}

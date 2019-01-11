@@ -47,11 +47,25 @@
 
  /* MEDIA QUERY */
  @media (max-width: 768px) {
+   #section-contact {
+     justify-content: center;
+   }
    #section-contact img {
      display: none;
    }
 
    #section-contact>div {
      width: auto;
+   }
+   
+   #p-section-contact {
+     text-align: center;
+   }
+   #p-section-contact p {
+     text-align: center;
+   }
+
+   #p-section-contact span {
+     float: none;
    }
  }
