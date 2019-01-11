@@ -23,6 +23,8 @@ header img {
 
 header img {
     left: 50%;
+    top: 0px;
+    max-height: 70px;
     transform: translate(-50%, 0) scale(1.25);
   }
 }
@@ -93,9 +95,9 @@ nav.sauge a:hover {
     background-color: #e6e6fa;
     background-image: url(../images/background-menu.jpg);
     background-size: cover;
-    border: 1px solid #000;
-    border-radius: 0.25em;
-    box-shadow: 2px 2px 10px #000, -2px 4px 10px #000;
+    /* border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #000, -2px 4px 10px #000; */
   }
 
   nav.sauge>ul>li>ul {
