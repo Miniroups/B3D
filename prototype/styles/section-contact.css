@@ -7,6 +7,8 @@
    background-color: #97423f;
    border-top: 5px solid #570d0b;
    border-bottom: 5px solid #570d0b;
+   position: relative; /* Corrige bug de menu */
+   z-index: 1; /* Corrige bug de menu */
  }
 
  #section-contact>div {
@@ -57,7 +59,7 @@
    #section-contact>div {
      width: auto;
    }
-   
+
    #p-section-contact {
      text-align: center;
    }

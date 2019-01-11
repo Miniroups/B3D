@@ -14,8 +14,8 @@
 <?php include('header.php'); ?>
 
 <body>
-
   <section id="produits">
+    <h1>acacia</h1>
     <div>
       <h3>Qualité</h3>
       <p>Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum aditibus, propugnaculis insistebant et pinnis, congesta undique saxa telaque habentes in promptu, ut si quis se proripuisset interius, multitudine missilium

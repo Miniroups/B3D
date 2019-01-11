@@ -1,4 +1,13 @@
 form {
+  background-color: #c09066;
   position: relative; /* corrige le bug pour le form */
   z-index: 1; /* corrige le bug pour le form */
+}
+input, select, textarea {
+  background-color: #330100 !important;
+  color: #ccc !important;
+  border: 1px solid #330100 !important;
+}
+::placeholder {
+  color: #ccc !important;
 }

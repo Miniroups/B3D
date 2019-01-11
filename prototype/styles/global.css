@@ -17,3 +17,10 @@ h3 {
   color: #570d0b;
   font-family: 'Raleway', sans-serif;
 }
+h1 {
+  align-self: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #570d0b;
+  font-family: 'Raleway', sans-serif;
+}

@@ -3,7 +3,7 @@ body {
   background-size: cover;
 }
 
-h3 {
+h3, h1 {
   text-align: center;
 }
 
@@ -27,13 +27,13 @@ h3 {
   text-align: justify;
   width: 80%;
 }
-#produits div:nth-child(1) {
+#produits div:nth-child(2) {
   margin-left: 5px;
 }
-#produits div:nth-child(2) {
+#produits div:nth-child(3) {
   margin: 10px auto;
 }
-#produits div:nth-child(3) {
+#produits div:nth-child(4) {
   margin-right: 5px;
 }
 
@@ -81,7 +81,7 @@ h3 {
   #produits div, #details div {
     width: 100%;
   }
-  #produits div:nth-child(1), #produits div:nth-child(2), #produits div:nth-child(3) {
+  #produits div:nth-child(2), #produits div:nth-child(3), #produits div:nth-child(4) {
     margin: 0 auto 5px auto;
   }
   #details div:nth-child(1), #details div:nth-child(2) {
