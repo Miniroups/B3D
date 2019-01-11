@@ -26,7 +26,7 @@
       <p><span>Téléphone :</span> 01 23 45 67 89</p>
       <p><span>Email :</span> julien.procedes@orange.fr</p>
       <p><span>Adresse :</span> " l'Intendant " 47700 Poussignac</p>
-      <p><span>Horaire d\'ouverture :</span> Du lundi au vendredi de 8h à 17h00</p>
+      <p><span>Horaire d'ouverture :</span> Du lundi au vendredi de 8h à 17h00</p>
     </div>
 
     <!-- API Openstreetmap -->
@@ -51,7 +51,7 @@
       L.marker([44.356944444444, 0.070555555555556]).addTo(mymap); /* set your location's GPS Coordinates : [LAT,LON] */
       </script>
     </section>
-    
+
     <!-- Formulaire -->
     <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" autocomplete="off">
 
