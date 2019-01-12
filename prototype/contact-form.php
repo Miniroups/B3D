@@ -19,7 +19,7 @@
       <?php include_once('section-contact.php'); ?>
     </div>
     <!-- Formulaire -->
-    <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" autocomplete="off">
+    <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= $_SERVER['SCRIPT_NAME'] ?>" method="post" autocomplete="off">
 
 
     <div class="row">
