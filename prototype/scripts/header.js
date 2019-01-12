@@ -4,6 +4,8 @@ window.addEventListener('load', function() {
   
   var navList = document.querySelector('nav.sauge > ul');
   
+  if(!navToggle || !navList) { return; }
+  
   navToggle.addEventListener('click', function() {
     
     if(!navList.style.display) {
