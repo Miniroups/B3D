@@ -19,10 +19,10 @@
       <li>
         <a href="produits.php">Produits</a>
         <ul>
-          <li><a href="produits.php">Acacia</a></li>
-          <li><a href="produits.php">Pin</a></li>
-          <li><a href="produits.php">Châtaigner</a></li>
-          <li><a href="produits.php">Bois de chauffe</a></li>
+          <li><a href="acacia.php">Acacia</a></li>
+          <li><a href="pin.php">Pin</a></li>
+          <li><a href="chataigner.php">Châtaigner</a></li>
+          <li><a href="bois-de-chauffe.php">Bois de chauffe</a></li>
         </ul>
       </li>
 
