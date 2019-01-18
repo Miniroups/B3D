@@ -34,6 +34,8 @@
       <li>47700 Poussignac</li>
       <li>Tél : 01 23 45 67 89</li>
     </ul>
+
+    <!-- <p>Icon made by Freepik from www.flaticon.com</p> -->
   </section>
 
   <!-- INCLUDE DE LA SECTION CONTACT -->
