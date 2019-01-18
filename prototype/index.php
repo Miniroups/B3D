@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/index.css">
   <title>B3D | Accueil</title>
 </head>
@@ -23,10 +16,11 @@
       <li><a href="societe.php">Deutsch</a></li>
     </ul>
   </section>
+
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('footer.php'); ?>
+  <?php include_once('ressources/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('scripts-communs.php'); ?>
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>

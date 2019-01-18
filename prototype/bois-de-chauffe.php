@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/produits.css">
   <title>B3D | Bois de chauffe</title>
 </head>
 
-<?php include('header.php'); ?>
+<?php include('ressources/header.php'); ?>
 
 <body>
 <h1>Bois de chauffe</h1>
@@ -70,15 +63,12 @@
 
   </section>
 
-  <div id="section-contact">
-    <?php include('section-contact.php') ?>
-  </div>
-
-  <?php include('footer.php') ?>
-
-
-  <?php include_once('scripts-communs.php'); ?>
-
+  <!-- INCLUDE DE LA SECTION CONTACT -->
+  <?php include_once('ressources/section-contact.php'); ?>
+  <!-- INCLUDE DU FOOTER -->
+  <?php include_once('ressources/footer.php'); ?>
+  <!-- Script -->
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>

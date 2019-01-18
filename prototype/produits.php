@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/produits.css">
   <title>B3D | Produits</title>
 </head>
 
-<?php include('header.php'); ?>
+<?php include('ressources/header.php'); ?>
 
 <body>
   <section id="produits">
@@ -41,31 +34,12 @@
 
   </section>
 
-  <!-- <section id="details">
-
-    <div>
-      <h3>Format disponible</h3>
-      <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
-        repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-    </div>
-
-    <div>
-      <h3>Caractéristiques</h3>
-      <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
-        repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-    </div>
-
-  </section> -->
-
-  <div id="section-contact">
-    <?php include('section-contact.php') ?>
-  </div>
-
-  <?php include('footer.php') ?>
-
-
-  <?php include_once('scripts-communs.php'); ?>
-
+  <!-- INCLUDE DE LA SECTION CONTACT -->
+  <?php include_once('ressources/section-contact.php'); ?>
+  <!-- INCLUDE DU FOOTER -->
+  <?php include_once('ressources/footer.php'); ?>
+  <!-- Script -->
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>
