@@ -2,6 +2,12 @@
 body {
   background-color: #c09066;
 }
+
+p {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
 .coeur {
   min-width: 100%;
   display: flex;
