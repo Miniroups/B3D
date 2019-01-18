@@ -57,6 +57,12 @@ footer {
     top: 2%;
     left: 37.5%;
   }
+  body {
+    overflow: scroll;
+  }
+  footer {
+    position: relative;
+  }
 }
 @media (max-width: 992px) {
   #chooseLanguage a {

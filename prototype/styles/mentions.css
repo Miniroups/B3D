@@ -42,3 +42,10 @@
 #mentions a:visited {
   color: #330100;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+    #mentions p{
+      margin: auto 20px;
+    }
+  }

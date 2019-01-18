@@ -102,6 +102,7 @@ h1 {
 @media (max-width: 768px) {
   #produits div, #details div {
     width: 100%;
+    padding: 20px;
   }
   #produits div:nth-child(2), #produits div:nth-child(3), #produits div:nth-child(4) {
     margin: 0 auto 5px auto;
