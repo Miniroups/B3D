@@ -9,11 +9,11 @@
   <?php include('ressources/header.php'); ?>
   <!-- BLOC SPECIFIQUE A LA PAGE -->
   <section class="coeur">
-    <div id="encart2" class="invert-encart">
+    <div id="encart2" class="encart">
       <h3>Notre histoire</h3>
       <p>Notre société est située à Poussignac dans le Lot-et-Garonne aux portes du massif landais et au plus prés de la ressource forestière. Dans les années 80, mon père y a construit une scierie de pin maritime fermée en 2015. En 2018, après avoir travaillé dans différents organismes et sociétés de la filière bois, j’ai choisi de revenir sur le site familial pour installer une unité de fabrication de piquets bois.</p>
     </div>
-    <div id="encart1" class="encart">
+    <div id="encart1" class="invert-encart">
       <h3>Nos produits</h3>
       <p>La présence d’une diversité d’essences de bois locaux a orienté mon choix sur un outil de transformation souple et flexible permettant de produire des piquets acacia, pin et châtaigner de différentes dimensions. Suivant l’essence et le diamètre des bois transformés deux opérations sont réalisées.</p>
     </div>
