@@ -30,7 +30,7 @@ footer {
 }
 
 #planDuSite li {
-  /* list-style: disclosure-closed; */
+  list-style: disclosure-closed;
 }
 
 #planDuSite a {
@@ -44,13 +44,4 @@ footer {
 
 #planDuSite a:visited {
   color: #330100;
-}
-
-#planDuSite ul li::before {
-  content: "\2B9E";
-  color: #330100;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
