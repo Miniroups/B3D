@@ -17,7 +17,7 @@
       </li>
 
       <li>
-        <a href="produits.php">Produits</a>
+        <a href="#">Produits</a>
         <ul>
           <li><a href="acacia.php">Acacia</a></li>
           <li><a href="pin.php">Pin</a></li>
