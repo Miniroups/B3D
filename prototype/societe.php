@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/societe.css">
   <title>B3D | Société</title>
 </head>
 
 <body>
   <!-- INCLUDE DU HEADER -->
-  <?php include('header.php'); ?>
+  <?php include('ressources/header.php'); ?>
   <!-- BLOC SPECIFIQUE A LA PAGE -->
   <section class="coeur">
     <div id="encart2" class="invert-encart">
@@ -29,14 +22,13 @@
       <p>Une opération de planage permettant d’apporter un état de surface raboté et lisse aux bois ronds ou une opération de fente permettant de suivre le fil du bois et conserver la résistance mécanique du bois et éviter les déformations de séchage. En mesure de précaution sanitaire une opération d’écorçage est réalisée pour chaque essence de bois. Cette opération permet d’éviter de transporter d’éventuels parasites comme des insectes xylophages sur le site de la clientèle. La satisfaction client est notre objectif premier et un contrôle de la qualité du produit est réalisé à chaque étape de transformation.</p>
     </div>
   </section>
+
   <!-- INCLUDE DE LA SECTION CONTACT -->
-  <div class="section-contact">
-    <?php include_once('section-contact.php'); ?>
-  </div>
+  <?php include_once('ressources/section-contact.php'); ?>
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('footer.php'); ?>
+  <?php include_once('ressources/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('scripts-communs.php'); ?>
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>
