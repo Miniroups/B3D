@@ -190,7 +190,7 @@ nav.sauge a:hover {
 
   nav.sauge>ul>li:hover>ul {
     max-height: 1000%;
-    transition-duration: 3s;
+    transition-duration: 1s;
   }
 
   nav.sauge>ul>li {
