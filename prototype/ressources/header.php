@@ -1,6 +1,6 @@
 <header>
   <nav class="sauge">
-    <img id="logoB3D" src="images/logo.png">
+    <a id="logoB3D" href="index.php"><img src="images/logo.png"></a>
     <div class="nav-toggle">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>

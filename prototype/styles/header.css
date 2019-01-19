@@ -14,12 +14,14 @@ header ul {
 
 #logoB3D {
   
-  position: absolute; left: 0; z-index: 1;
+  position: absolute; left: 0; top: 0; z-index: 1;
   
-  height: 9em; transform: translate(0, 22.5%);
+  transform: translate(0, -5%);
   
-  filter: drop-shadow(1px 1px 10px maroon);
+  min-width: 0; background: transparent;
 }
+
+#logoB3D img { height: 9.5em; filter: drop-shadow(1px 1px 10px maroon); }
 
 /* DRAPEAUX EN MODE DESKTOP */
 #flags {
@@ -41,29 +43,25 @@ header ul {
   margin: auto;
 }
 
-#flags a:hover {
-  transform: scale(1.1);
-}
+#flags a:hover { transform: scale(1.1); }
 
 /* MENU LANGAGE */
-#notFlags {
-  display: none;
-}
+#notFlags { display: none; }
 
 @media (max-width: 991px) {
 
-#logoB3D {
-    left: 50%;
-    top: 0px;
-    max-height: 70px;
-    transform: translate(-50%, 0) scale(1.25);
+  #logoB3D {
+
+      left: 50%; top: -5px;
+
+      transform: translate(-50%, 0) scale(1.25);
   }
-  #flags {
-    display: none;
-  }
-  #notFlags {
-    display: block;
-  }
+  
+  #logoB3D img { max-height: 70px; }
+  
+  #flags { display: none; }
+  
+  #notFlags { display: block; }
 }
 
 .nav-toggle {
