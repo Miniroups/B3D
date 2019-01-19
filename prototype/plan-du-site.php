@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/plan-du-site.css">
   <title>B3D | Plan du site</title>
 </head>
 
 <body>
   <!-- INCLUDE DU HEADER -->
-  <?php include('header.php'); ?>
+  <?php include('ressources/header.php'); ?>
   <!-- BLOC SPECIFIQUE A LA PAGE -->
   <section id="planDuSite">
     <h1>Plan du site</h1>
@@ -32,10 +25,11 @@
       <li><a href="plan-du-site.php">Plan du site</a></li>
     </ul>
   </section>
+
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('footer.php'); ?>
+  <?php include_once('ressources/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('scripts-communs.php'); ?>
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>

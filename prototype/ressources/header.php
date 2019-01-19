@@ -1,6 +1,6 @@
 <header>
   <nav class="sauge">
-    <img src="images/logo.png">
+    <img id="logoB3D" src="images/logo.png">
     <div class="nav-toggle">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -17,7 +17,7 @@
       </li>
 
       <li>
-        <a href="produits.php">Produits</a>
+        <a href="#">Produits</a>
         <ul>
           <li><a href="acacia.php">Acacia</a></li>
           <li><a href="pin.php">Pin</a></li>
@@ -29,8 +29,8 @@
       <li>
         <a href="contact-form.php">Contact</a>
       </li>
-      <li>
-        <a href="index.php">Langues</a>
+      <li id="notFlags">
+        <a href="#index.php">Langues</a>
         <ul>
           <li><a href="index.php">Français</a></li>
           <li><a href="index.php">English</a></li>
@@ -40,4 +40,10 @@
       </li>
     </ul>
   </nav>
+  <div id="flags">
+    <a href="index.php"><img src="images/FR.svg" alt="French Flag"></a>
+    <a href="index.php"><img src="images/EN.svg" alt="English Flag"></a>
+    <a href="index.php"><img src="images/ES.svg" alt="Español Flag"></a>
+    <a href="index.php"><img src="images/DE.svg" alt="Deutsch Flag"></a>
+  </div>
 </header>

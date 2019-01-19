@@ -11,13 +11,15 @@
 
   <url><loc>/societe.php</loc></url>
 
-  <url><loc>/produits/acacia.php</loc></url>
+  <url><loc>/produits.php</loc></url>
 
-  <url><loc>/produits/pin.php</loc></url>
+  <url><loc>/acacia.php</loc></url>
 
-  <url><loc>/produits/chataigner.php</loc></url>
+  <url><loc>/pin.php</loc></url>
 
-  <url><loc>/produits/bois-de-chauffe.php</loc></url>
+  <url><loc>/chataigner.php</loc></url>
+
+  <url><loc>/bois-de-chauffe.php</loc></url>
 
   <url><loc>/contact.php</loc></url>
 

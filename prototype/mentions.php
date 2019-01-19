@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/mentions.css">
   <title>B3D | Mentions Légales</title>
 </head>
 
 <body>
   <!-- INCLUDE DU HEADER -->
-  <?php include('header.php'); ?>
+  <?php include('ressources/header.php'); ?>
   <!-- BLOC SPECIFIQUE A LA PAGE -->
   <section id="mentions">
     <h1>Mentions légales</h1>
@@ -41,17 +34,16 @@
       <li>47700 Poussignac</li>
       <li>Tél : 01 23 45 67 89</li>
     </ul>
+
+    <!-- <p>Icon made by Freepik from www.flaticon.com</p> -->
   </section>
 
-  <!-- cookie ?? -->
   <!-- INCLUDE DE LA SECTION CONTACT -->
-  <div class="section-contact">
-    <?php include_once('section-contact.php'); ?>
-  </div>
+  <?php include_once('ressources/section-contact.php'); ?>
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('footer.php'); ?>
+  <?php include_once('ressources/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('scripts-communs.php'); ?>
+  <?php include_once('ressources/scripts-communs.php'); ?>
 </body>
 
 </html>

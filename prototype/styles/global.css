@@ -27,3 +27,10 @@ h1 {
   color: #570d0b;
   font-family: 'Raleway', sans-serif;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  p {
+    text-align: justify;
+  }
+}

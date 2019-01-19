@@ -11,3 +11,16 @@ input, select, textarea {
 ::placeholder {
   color: #ccc !important;
 }
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+a:visited {
+  color: #330100;
+}

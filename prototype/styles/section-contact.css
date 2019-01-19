@@ -65,9 +65,12 @@
    }
    #p-section-contact p {
      text-align: center;
+     display: flex;
+     flex-direction: column;
    }
 
    #p-section-contact span {
      float: none;
    }
+
  }

@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Link CSS -->
-  <?php include_once('styles-communs.php'); ?>
+  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php include_once('ressources/head.php'); ?>
   <link rel="stylesheet" href="styles/contact-form.css">
   <title>B3D | Contact</title>
 </head>
 
   <body>
     <!-- INCLUDE DU HEADER -->
-    <?php include('header.php'); ?>
+    <?php include('ressources/header.php'); ?>
     <!-- Coordonnées -->
     <div class="section-contact">
-      <?php include_once('section-contact.php'); ?>
+      <?php include_once('ressources/section-contact.php'); ?>
     </div>
     <!-- Formulaire -->
     <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= $_SERVER['SCRIPT_NAME'] ?>" method="post" autocomplete="off">
@@ -101,12 +94,10 @@
     <?= isset($messages['form-process']) ? '<div class="message col-sm-12">'.$messages['form-process'].'</div>' : ''; ?>
     <!-- row --></div>
     </form>
-    <!-- pied de page -->
-    <footer>
-      <?php include_once('footer.php'); ?>
-    </footer>
-
+    
+    <!-- INCLUDE DU FOOTER -->
+    <?php include_once('ressources/footer.php'); ?>
     <!-- Script -->
-    <?php include_once('scripts-communs.php'); ?>
+    <?php include_once('ressources/scripts-communs.php'); ?>
   </body>
 </html>
