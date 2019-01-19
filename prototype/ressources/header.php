@@ -9,7 +9,7 @@
 
     <ul>
       <li>
-        <a href="index.php">Accueil</a>
+        <a href="/">Accueil</a>
       </li>
 
       <li>
@@ -17,7 +17,7 @@
       </li>
 
       <li>
-        <a href="#">Produits</a>
+        <a>Produits</a>
         <ul>
           <li><a href="acacia.php">Acacia</a></li>
           <li><a href="pin.php">Pin</a></li>

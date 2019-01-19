@@ -99,11 +99,13 @@ nav.sauge a {
   background-color: #7c2522;
   padding: 0.5em 0;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none !important;
   text-align: center !important;
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: #fff !important;
 }
+
+nav.sauge a:not([href]) { cursor: default; }
 
 .sauge ul li ul li a {
   background-color: #97423f !important;
