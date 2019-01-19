@@ -13,10 +13,12 @@ header ul {
 }
 
 #logoB3D {
-  max-height: 90px;
-  position: absolute;
-  left: 0;
-  z-index: 1;
+  
+  position: absolute; left: 0; z-index: 1;
+  
+  height: 9em; transform: translate(0, 22.5%);
+  
+  filter: drop-shadow(1px 1px 10px maroon);
 }
 
 /* DRAPEAUX EN MODE DESKTOP */
