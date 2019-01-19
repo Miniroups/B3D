@@ -130,6 +130,7 @@ nav.sauge a:hover {
     background-color: #e6e6fa;
     background-image: url(../images/background-menu.jpg);
     background-size: cover;
+    box-shadow: 5px 5px 10px #000;
   }
 
   nav.sauge>ul>li>ul {
@@ -182,7 +183,7 @@ nav.sauge a:hover {
     top: 100%;
     width: 100%;
     z-index: 100000;
-    transition: max-height 0 ease-in;
+    transition: max-height 0s ease-in;
   }
 
   nav.sauge>ul>li:hover>ul {
