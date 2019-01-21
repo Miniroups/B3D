@@ -1,6 +1,6 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
   <?php include_once('parts/head.php'); ?>
-  <link rel="stylesheet" href="styles/contact-form.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <title>B3D | Contact</title>
 </head>
 

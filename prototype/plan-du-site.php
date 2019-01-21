@@ -20,7 +20,7 @@
             <li><a href="bois-de-chauffe.php">Bois de chauffe</a></li>
           </ul>
       </li>
-      <li><a href="contact-form.php">Contact</a></li>
+      <li><a href="contact.php">Contact</a></li>
       <li><a href="mentions.php">Mentions</a></li>
       <li><a href="plan-du-site.php">Plan du site</a></li>
     </ul>
