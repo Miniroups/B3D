@@ -9,7 +9,7 @@ function ContactForm(url) {
 
   form.find(':input').each(function() {
 
-    $(this).on('focus', function() {
+    $(this).on('input', function() {
 
       $(this).parent().find('.error-message').empty();
 
@@ -30,9 +30,9 @@ function ContactForm(url) {
   });
 
   function onSuccess(response) {
-
+    
     var responseObject = JSON.parse(response);
-
+    
     if(responseObject['status'] === 'ok') {
 
       form[0].reset();

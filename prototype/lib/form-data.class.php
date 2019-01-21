@@ -2,127 +2,82 @@
 
 class FormData {
 
-  protected $o = [];
+  protected $sanitizedData = [], $errorMessages = [];
 
-  function __construct($data, $inputs, $functions, $messages) {
-
-    $this->o['rawData'] = $data;
-    $this->o['inputs'] = $inputs;
-    $this->o['functions'] = $functions;
-    $this->o['messages'] = $messages;
-
-    $this->o['sanitizedData'] = [];
-    $this->o['validatedData'] = [];
-    $this->o['errorMessages'] = [];
-
-    $this->checkRequired();
-
-    $this->checkLength();
+  function __construct($data, $inputDescriptions, $validationFunctions, $errorMessages) {
     
-    $this->checkSpecials();
-
-    $this->validate();
+    $inputNames = array_keys($inputDescriptions);
     
-    $this->sanitize();
-  }
-
-  function __destruct() { $this->o = []; }
-
-  protected function checkRequired() {
-
-    foreach($this->o['inputs'] as $input => $description) {
-
-      if(!$description['required']) { continue; }
-
-      if(empty($this->o['rawData'][$input])) {
-
-        $this->o['errorMessages'][$input] = $this->o['messages']['required'];
-      }
-    }
-  }
-
-  protected function checkLength() {
-
-    foreach($this->o['inputs'] as $input => $description) {
-
-      $raw = $this->o['rawData'][$input];
-
-      if(empty($raw) || empty($description['max-length'])) { continue; }
-
-      if(strlen($raw) > $description['max-length']) {
-
-        $this->o['errorMessages'][$input] = $this->o['messages']['max-length'];
-      }
-    }
-  }
-  
-  protected function checkSpecials() {
-   
-    foreach($this->o['inputs'] as $input => $description) {
+    foreach($data as $key => $raw) {
       
-      $raw = $this->o['rawData'][$input];
+      $this->sanitizedData[$key] = '';
       
-      if(empty($raw) || empty($description['specials'])) { continue; }
-      
-      if(preg_match('/[&"<>]/', $raw)) {
-
-        $this->o['errorMessages'][$input] = $this->o['messages']['specials'];
+      if(!in_array($key, $inputNames)) {
+        
+        $this->errorMessages[$key] = $errorMessages['unexpected'];
+        
+        continue;
       }
+      
+      $desc = $inputDescriptions[$key];
+      
+      if($raw === '') {
+        
+        if(!empty($desc['required'])) { 
+        
+          $this->errorMessages[$key] = $errorMessages['required'];
+        }
+        
+        continue;
+      }
+      
+      if(!empty($desc['max-length']) && strlen($raw) > $desc['max-length']) {
+        
+        $this->errorMessages[$key] = $errorMessages['max-length'];
+          
+        continue;
+      }
+      
+      if(!empty($desc['specials']) && preg_match('/[&"<>]/', $raw)) {
+      
+        $this->errorMessages[$key] = $errorMessages['specials'];
+        
+        continue;
+      }
+      
+      if(!empty($validationFunctions[$key]) && !$validationFunctions[$key]($raw)) {
+
+        $this->errorMessages[$key] = $errorMessages[$key];
+        
+        continue;
+      }
+      
+      $sanitized = htmlspecialchars(trim($raw), ENT_COMPAT, 'utf-8');
+
+      if(!empty($desc[$key]['type'])) {
+        
+        switch($desc[$key]['type']) {
+
+          case('integer'): $cast = (integer) $sanitized; break;
+
+          case('float'): $cast = (float) $sanitized; break;
+
+          case('boolean'): $cast = ($sanitized === 'true'); break;
+        }        
+      }
+      else { $cast = (string) $sanitized; }
+
+      $this->sanitizedData[$key] = $cast;
     }
   }
 
-  protected function validate() {
+  function __destruct() { $this->sanitizedData = $this->errorMessages = []; }
 
-    foreach($this->o['rawData'] as $key => $value) {
+  public function isValidated() { return empty($this->errorMessages); }
 
-      if(empty($value)) { $this->o['validatedData'][$key] = ''; continue; }
+  public function getSanitizedData() { return $this->sanitizedData; }
 
-      if(empty($this->o['functions'][$key])) { $this->o['validatedData'][$key] = $value; continue; }
-
-      if(!$this->o['functions'][$key]($value)) {
-
-        $this->o['errorMessages'][$key] = $this->o['messages'][$key];
-
-        $this->o['validatedData'][$key] = '';
-      }
-      else { $this->o['validatedData'][$key] = $value; }
-    }
-  }
-  
-  protected function sanitize() {
-
-    foreach($this->o['rawData'] as $key => $value) {
-
-      if(empty($value) || empty($this->o['inputs'][$key])) { $this->o['sanitizedData'][$key] = ''; continue; }
-
-      $sanitized = htmlspecialchars(trim($value), ENT_COMPAT, 'utf-8');
-
-      $type = empty($this->o['inputs'][$key]['type']) ? 'string' : $this->o['inputs'][$key]['type'];
-      
-      switch($type) {
-
-        case('string'): $cast = (string) $sanitized; break;
-
-        case('integer'): $cast = (integer) $sanitized; break;
-
-        case('float'): $cast = (float) $sanitized; break;
-
-        case('boolean'): $cast = ($sanitized === 'true'); break;
-      }
-
-      $this->o['sanitizedData'][$key] = $cast;
-    }
-  }
-  
-  public function isValidated() { return empty($this->o['errorMessages']); }
-
-  public function getRawData() { return $this->o['rawData']; }
-
-  public function getSanitizedData() { return $this->o['sanitizedData']; }
-
-  public function getValidatedData() { return $this->o['validatedData']; }
-
-  public function getErrorMessages() { return $this->o['errorMessages']; }
+  public function getErrorMessages() { return $this->errorMessages; }
 }
 
 ///////////////////////////////////////////////////////////////////////////// ?>

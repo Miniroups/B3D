@@ -21,7 +21,7 @@
 <div class="form-group col-md-4">
 <label for="identification" class="required">Vous êtes...</label>
 <select class="form-control" name="raison-sociale">
-<option selected readonly>Veuillez choisir</option>
+<option value="" selected>Veuillez choisir</option>
 <option value="particulier">un particulier</option>
 <option value="professionnel">un professionnel</option>
 <option value="autre">autre</option>
@@ -45,19 +45,19 @@
 <div class="row">
 <div class="form-group col-md-6">
 <label for="address">Adresse</label>
-<input id="address" class="form-control" name="address" placeholder="Votre adresse">
+<input id="address" class="form-control" name="address" type="text" placeholder="Votre adresse">
 <div class="error-message"></div>
 </div>
 
 <div class="form-group col-md-3">
 <label for="postal-code" class="required">Code Postal</label>
-<input id="postal-code" class="form-control" name="postal-code" placeholder="Code Postal">
+<input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="Code Postal">
 <div class="error-message"></div>
 </div>
 
 <div class="form-group col-md-3">
 <label for="city" class="required">Ville</label>
-<input id="city" class="form-control" name="city" placeholder="Ville">
+<input id="city" class="form-control" name="city" type="text" placeholder="Ville">
 <div class="error-message"></div>
 </div>
 </div>
