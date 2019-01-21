@@ -8,6 +8,16 @@
 
 <body>
 <h1>Pin</h1>
+<section id="produits">
+  <div>
+    <h3>Usages</h3>
+    <p>
+    Nos piquets et poteaux pins sont planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout.<br><br>
+    La qualité de nos bois est conforme aux spécifications de la norme NF B 50-100-3 pour une classe d’emploi classe IV après avoir subi un traitement en autoclave suivant le procédé Bethell vide et pression 12 bars dans une station certifiée CTB B+.<br><br>
+    La proportion de bois de cœur présente dans nos pins est faible ce qui permet une pénétration et une rétention de produit de préservation optimum pour longévité accrue de nos piquets et poteaux.
+    </p>
+  </div>
+</section>
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#indicateurs" data-slide-to="0" class="active"></li>
@@ -60,7 +70,7 @@
       			<td>2m50</td>
       		</tr>
       		<tr>
-      			<td class="verticalCells" rowspan="3">Diamètres fin bout</td>
+      			<td rowspan="3"><span class="verticalCells">Diamètres fin bout</span></td>
       			<td>7/10cm</td>
       			<td colspan="3">80/palettes</td>
       		</tr>
@@ -78,7 +88,7 @@
 
     <div>
       <h3>Poteaux arboricoles</h3>
-      <table>
+      <table id="no-more-tables">
       	<tbody>
       		<tr>
       			<td colspan="2">Longueurs</td>
@@ -91,7 +101,7 @@
       			<td>5m</td>
       		</tr>
       		<tr>
-      			<td class="verticalCells" rowspan="4">Diamètres fin bout</td>
+      			<td rowspan="4"><span class="verticalCells">Diamètres fin bout</span></td>
       			<td>7/10cm</td>
       			<td colspan="3">80/palettes</td>
       			<td colspan="4">-</td>
