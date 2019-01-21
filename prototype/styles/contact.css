@@ -1,26 +1,80 @@
-form {
+#contact-form-section { padding: 1em 1em 0.5em; background-color: #97423f; }
+
+form.contact-form {
+  
+  min-height: 33em; padding: 1em 1em 0;
+  
   background-color: #c09066;
+  
   position: relative; /* corrige le bug pour le form */
   z-index: 1; /* corrige le bug pour le form */
 }
-input, select, textarea {
+
+form.contact-form .form-group { margin-bottom: 0.25em; }
+
+form.contact-form input,
+form.contact-form select,
+form.contact-form textarea {
+  
   background-color: #330100 !important;
+  
   color: #ccc !important;
+  
   border: 1px solid #330100 !important;
 }
-::placeholder {
-  color: #ccc !important;
+::placeholder { color: #ccc !important; }
+
+form.contact-form a { color: #000000; text-decoration: underline; }
+
+form.contact-form a:hover { color: #aaa; }
+
+form.contact-form a:visited { color: #330100; }
+
+form.contact-form label { font-weight: bold; }
+
+form.contact-form label.required::after, #required-sign::after { content: '*'; position: relative; top: 0.15em; }
+
+form.contact-form label.required::after, #required-sign-description { font-weight: bold; color: green; }
+
+form.contact-form label.required::after { margin-left: 0.5em; }
+
+form.contact-form #required-sign::after { margin-right: 0.5em; }
+
+form.contact-form #required-sign-description { margin-bottom: 0.75em; }
+
+form.contact-form label[for="opt-in-checkbox"] { font-weight: normal; margin-bottom: 0; }
+
+form.contact-form #opt-in-checkbox { transform: scale(1.6); -moz-transform: scale(1.2); margin-right: 0.33em; }
+
+form.contact-form #contact-form-submit-button {
+
+  display: block; width: 10em; margin: 1em auto 0;
+
+  text-transform: uppercase;
+
+  background-color: #ffc700; color: #777;
+
+  border: 1px solid #777; border-radius: 0.25em;
+
+  text-shadow: 1px 1px 1px #fff;
+
+  box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.2);
+
+  transition: none;
 }
 
-a {
-  color: #000000;
-  text-decoration: underline;
-}
+form.contact-form #contact-form-submit-button:not([disabled]):hover,
+form.contact-form #contact-form-submit-button:not([disabled]):focus { background-color: #ffa500; }
 
-a:hover {
-  color: #aaa;
-}
+form.contact-form #contact-form-submit-button[disabled] { cursor: not-allowed; opacity: 0.65; }
 
-a:visited {
-  color: #330100;
+form.contact-form .error-message { font-size: 0.9em; min-height: 1.5em; margin-top: 0.25em; color: red; }
+
+form.contact-form #status-message {
+  
+  min-height: 1.5em; margin: 0.5em 0; padding: 0;
+  
+  color: #ff4500; font-weight: bold;
+  
+  text-align: center;
 }
