@@ -1,17 +1,17 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('ressources/head.php'); ?>
+  <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/produits.css">
   <title>B3D | Acacia</title>
 </head>
 
-<?php include('ressources/header.php'); ?>
+<?php include('parts/header.php'); ?>
 
 <body>
 <h1>Acacia</h1>
 <section id="produits">
   <div>
     <h3>Usages</h3>
-    <p>L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites comme des insectes xylophages sur le site de la clientèle. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout. L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage. </p>
+    <p>L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites comme des insectes xylophages sur le site de la clientèle.<br><br> Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout.<br><br> L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage. </p>
   </div>
 </section>  
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
@@ -131,11 +131,11 @@
 
 
   <!-- INCLUDE DE LA SECTION CONTACT -->
-  <?php include_once('ressources/section-contact.php'); ?>
+  <?php include_once('parts/section-contact.php'); ?>
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('ressources/footer.php'); ?>
+  <?php include_once('parts/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('ressources/scripts-communs.php'); ?>
+  <?php include_once('parts/scripts-communs.php'); ?>
 </body>
 
 </html>
