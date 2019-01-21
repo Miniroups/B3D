@@ -1,11 +1,16 @@
 #contact-form-section { padding: 1em 1em 0.5em; background-color: #97423f; }
 
+#p-section-contact h3 {
+  align-self: flex-end;
+  margin-right: 50px;
+}
+
 form.contact-form {
-  
+
   min-height: 33em; padding: 1em 1em 0;
-  
+
   background-color: #c09066;
-  
+
   position: relative; /* corrige le bug pour le form */
   z-index: 1; /* corrige le bug pour le form */
 }
@@ -15,11 +20,11 @@ form.contact-form .form-group { margin-bottom: 0.25em; }
 form.contact-form input,
 form.contact-form select,
 form.contact-form textarea {
-  
+
   background-color: #330100 !important;
-  
+
   color: #ccc !important;
-  
+
   border: 1px solid #330100 !important;
 }
 ::placeholder { color: #ccc !important; }
@@ -71,10 +76,10 @@ form.contact-form #contact-form-submit-button[disabled] { cursor: not-allowed; o
 form.contact-form .error-message { font-size: 0.9em; min-height: 1.5em; color: red; }
 
 form.contact-form #status-message {
-  
+
   min-height: 1.5em; margin: 0.5em 0; padding: 0;
-  
+
   color: #ff4500; font-weight: bold;
-  
+
   text-align: center;
 }

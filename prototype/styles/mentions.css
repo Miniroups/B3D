@@ -1,6 +1,7 @@
 /* MENTIONS */
 #mentions {
   background-color: #c09066;
+  padding: 30px 0;
 }
 
 #mentions h1, h2 {
@@ -50,5 +51,8 @@
 @media (max-width: 768px) {
     #mentions p{
       margin: auto 20px;
+    }
+    #mentions li {
+      list-style: disc;
     }
   }

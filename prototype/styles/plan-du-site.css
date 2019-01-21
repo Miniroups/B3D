@@ -12,7 +12,6 @@ footer {
   background-color: #c09066;
   width: 60%;
   margin: auto;
-  min-height: 100%;
 }
 
 #planDuSite h1 {
@@ -44,4 +43,20 @@ footer {
 
 #planDuSite a:visited {
   color: #330100;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;
+  }
+  footer {
+    position: relative;
+  }
+  #planDuSite {
+    width: 100%;
+  }
+  #planDuSite li {
+    list-style: disc;
+  }
 }

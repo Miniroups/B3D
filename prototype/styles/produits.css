@@ -6,6 +6,7 @@ body {
 h3 {
   text-align: center;
 }
+
 h1 {
   text-align: center;
   margin-top: 10px;
@@ -24,7 +25,7 @@ h1 {
   display: flex;
 }
 
-#details div:nth-child(1){
+#details div:nth-child(1) {
   margin: 10px 5px 10px 10px;
 }
 
@@ -32,7 +33,7 @@ h1 {
   margin: 10px 10px 10px 5px;
 }
 
-#produits div, #details div {
+#details div {
   background-color: #97683f;
   flex-direction: column;
   padding: 10px;
@@ -40,22 +41,35 @@ h1 {
   text-align: justify;
   width: 80%;
 }
+
+#produits div {
+  background-color: #97683f;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0px 5px 10px 5px;
+  text-align: justify;
+}
+
 /* Décalage en quinquonce */
 #produits div:nth-child(2) {
   margin-left: 10px;
   text-align: left;
 }
+
 #produits div:nth-child(2) h3 {
   text-align: left;
 }
+
 #produits div:nth-child(3) {
   margin: 10px auto;
   text-align: center;
 }
+
 #produits div:nth-child(4) {
   margin-right: 10px;
   text-align: right;
 }
+
 #produits div:nth-child(4) h3 {
   text-align: right;
 }
@@ -107,7 +121,7 @@ table {
   border: 2px solid #570d0b;
 }
 
-  tr, td {
+tr, td, th {
   border: 1px solid #570d0b;
 }
 
@@ -122,72 +136,27 @@ table {
   #produits div, #details div {
     width: 100%;
     padding: 20px;
+    margin: 5px auto;
   }
+
   #produits div:nth-child(2), #produits div:nth-child(3), #produits div:nth-child(4) {
     margin: 0 auto 5px auto;
   }
+
   #details div:nth-child(1), #details div:nth-child(2) {
     margin: 5px auto 0 auto;
   }
+
   #produits, #details {
     padding: 0px;
   }
+
   #details {
     display: flex;
     flex-direction: column;
   }
+
   .carousel-item {
     height: 200px;
   }
-  /* .verticalCells {
-    text-transform: uppercase;
-    writing-mode: sideways-lr;
-  } */
-  /* TABLE RESPONSIVE TEST */
-
-	/* Force table to not be like tables anymore */
-	#no-more-tables table,
-	#no-more-tables thead,
-	#no-more-tables tbody,
-	#no-more-tables th,
-	#no-more-tables td,
-	#no-more-tables tr {
-		display: block;
-	}
-
-	/* Hide table headers (but not display: none;, for accessibility) */
-	#no-more-tables thead tr {
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-
-	#no-more-tables tr { border: 1px solid #ccc; }
-
-	#no-more-tables td {
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee;
-		position: relative;
-		white-space: normal;
-		text-align: center;
-	}
-
-	#no-more-tables td:before {
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%;
-		padding-right: 10px;
-		white-space: nowrap;
-		text-align:left;
-		font-weight: bold;
-	}
-
-	/*
-	Label the data
-	*/
-	#no-more-tables td:before { content: attr(data-title); }
 }
