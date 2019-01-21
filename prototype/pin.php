@@ -65,22 +65,22 @@
       	<tbody>
       		<tr>
       			<td colspan="2">Longueurs</td>
-      			<td>2m</td>
-      			<td>2m30</td>
-      			<td>2m50</td>
+      			<td>2m 00</td>
+      			<td>2m 30</td>
+      			<td>2m 50</td>
       		</tr>
       		<tr>
       			<td rowspan="3"><span class="verticalCells">Diamètres fin bout</span></td>
-      			<td>7/10cm</td>
-      			<td colspan="3">80/palettes</td>
+      			<td>7/10 cm</td>
+      			<td colspan="3">80 µ / palettes</td>
       		</tr>
       		<tr>
-      			<td>10/12cm</td>
-      			<td colspan="3">72/palettes</td>
+      			<td>10/12 cm</td>
+      			<td colspan="3">72 µ / palettes</td>
       		</tr>
       		<tr>
-      			<td>12/14cm</td>
-      			<td colspan="3">56/palettes</td>
+      			<td>12/14 cm</td>
+      			<td colspan="3">56 µ / palettes</td>
       		</tr>
       	</tbody>
       </table>
@@ -88,38 +88,38 @@
 
     <div>
       <h3>Poteaux arboricoles</h3>
-      <table id="no-more-tables">
+      <table>
       	<tbody>
       		<tr>
       			<td colspan="2">Longueurs</td>
-      			<td>2m50</td>
-      			<td>2m80</td>
-      			<td>3m</td>
-      			<td>3m50</td>
-      			<td>4m</td>
-      			<td>4m50</td>
-      			<td>5m</td>
+      			<td>2m 50</td>
+      			<td>2m 80</td>
+      			<td>3m 00</td>
+      			<td>3m 50</td>
+      			<td>4m 00</td>
+      			<td>4m 50</td>
+      			<td>5m 00</td>
       		</tr>
       		<tr>
       			<td rowspan="4"><span class="verticalCells">Diamètres fin bout</span></td>
-      			<td>7/10cm</td>
-      			<td colspan="3">80/palettes</td>
+      			<td>7/10 cm</td>
+      			<td colspan="3">80 µ / palettes</td>
       			<td colspan="4">-</td>
       		</tr>
       		<tr>
-      			<td>10/12cm</td>
-      			<td colspan="4">72/palettes</td>
-      			<td colspan="3">64/palettes</td>
+      			<td>10/12 cm</td>
+      			<td colspan="4">72 µ / palettes</td>
+      			<td colspan="3">64 µ / palettes</td>
       		</tr>
       		<tr>
-            <td>12/14cm</td>
-      			<td colspan="4">56/palettes</td>
-      			<td colspan="3">48/palettes</td>
+            <td>12/14 cm</td>
+      			<td colspan="4">56 µ / palettes</td>
+      			<td colspan="3">48 µ / palettes</td>
       		</tr>
       		<tr>
-            <td>14/16cm</td>
-      			<td colspan="4">42/palettes</td>
-      			<td colspan="3">36/palettes</td>
+            <td>14/16 cm</td>
+      			<td colspan="4">42 µ / palettes</td>
+      			<td colspan="3">36 µ / palettes</td>
       		</tr>
       	</tbody>
       </table>
