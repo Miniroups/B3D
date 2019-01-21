@@ -9,7 +9,6 @@
   <section id="chooseLanguage">
     <img src="images/logo.png" alt="logo_B3D">
     <ul>
-      <li><img src="images/logo.png" alt="logo_B3D"></li>
       <li><a href="societe.php">Français</a></li>
       <li><a href="societe.php">English</a></li>
       <li><a href="societe.php">Español</a></li>

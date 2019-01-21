@@ -34,9 +34,6 @@ footer {
   top: 30%;
   left: 42.5%;
 }
-#chooseLanguage ul img {
-  display: none;
-}
 
 /* MEDIA QUERY */
 @media (max-width: 768px) {
@@ -48,14 +45,10 @@ footer {
     font-size: 1em;
   }
   #chooseLanguage img{
-    display: none;
-  }
-  #chooseLanguage ul img {
-    display: block;
-    width: 25%;
-    position: absolute;
-    top: 2%;
-    left: 37.5%;
+    width: 20%;
+    position: relative;
+    top: 30px;
+    left: 40%;
   }
   body {
     overflow: scroll;
@@ -64,6 +57,7 @@ footer {
     position: relative;
   }
 }
+
 @media (max-width: 992px) {
   #chooseLanguage a {
     font-size: 1em;
