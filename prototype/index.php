@@ -1,5 +1,5 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('ressources/head.php'); ?>
+  <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/index.css">
   <title>B3D | Accueil</title>
 </head>
@@ -18,9 +18,9 @@
   </section>
 
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('ressources/footer.php'); ?>
+  <?php include_once('parts/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('ressources/scripts-communs.php'); ?>
+  <?php include_once('parts/scripts-communs.php'); ?>
 </body>
 
 </html>

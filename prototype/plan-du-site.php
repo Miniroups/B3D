@@ -1,12 +1,12 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('ressources/head.php'); ?>
+  <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/plan-du-site.css">
   <title>B3D | Plan du site</title>
 </head>
 
 <body>
   <!-- INCLUDE DU HEADER -->
-  <?php include('ressources/header.php'); ?>
+  <?php include('parts/header.php'); ?>
   <!-- BLOC SPECIFIQUE A LA PAGE -->
   <section id="planDuSite">
     <h1>Plan du site</h1>
@@ -27,9 +27,9 @@
   </section>
 
   <!-- INCLUDE DU FOOTER -->
-  <?php include_once('ressources/footer.php'); ?>
+  <?php include_once('parts/footer.php'); ?>
   <!-- Script -->
-  <?php include_once('ressources/scripts-communs.php'); ?>
+  <?php include_once('parts/scripts-communs.php'); ?>
 </body>
 
 </html>

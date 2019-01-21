@@ -1,15 +1,15 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('ressources/head.php'); ?>
+  <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/contact-form.css">
   <title>B3D | Contact</title>
 </head>
 
   <body>
     <!-- INCLUDE DU HEADER -->
-    <?php include('ressources/header.php'); ?>
+    <?php include('parts/header.php'); ?>
     <!-- Coordonnées -->
     <div class="section-contact">
-      <?php include_once('ressources/section-contact.php'); ?>
+      <?php include_once('parts/section-contact.php'); ?>
     </div>
     <!-- Formulaire -->
     <form style="padding: 20px" class="container-fluid" name="contact-form" action="<?= $_SERVER['SCRIPT_NAME'] ?>" method="post" autocomplete="off">
@@ -96,8 +96,8 @@
     </form>
     
     <!-- INCLUDE DU FOOTER -->
-    <?php include_once('ressources/footer.php'); ?>
+    <?php include_once('parts/footer.php'); ?>
     <!-- Script -->
-    <?php include_once('ressources/scripts-communs.php'); ?>
+    <?php include_once('parts/scripts-communs.php'); ?>
   </body>
 </html>
