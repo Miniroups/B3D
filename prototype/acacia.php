@@ -13,7 +13,7 @@
     <h3>Usages</h3>
     <p>L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites comme des insectes xylophages sur le site de la clientèle.<br><br> Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout.<br><br> L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage. </p>
   </div>
-</section>  
+</section>
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#indicateurs" data-slide-to="0" class="active"></li>
@@ -60,32 +60,32 @@
       <table>
         <tr>
           <th colspan="2">Longueurs</th>
-          <th>1m40</th>
-          <th>1m80</th>
-          <th>2m</th>
-          <th>2m30</th>
-          <th>2m50</th>
+          <th>1m 40</th>
+          <th>1m 80</th>
+          <th>2m 00</th>
+          <th>2m 30</th>
+          <th>2m 50</th>
         </tr>
         <tr>
           <td rowspan="4">Périmètres bout fin</td>
-          <td>19/23cm</td>
-          <td colspan="3">160 unités par palette</td>
+          <td>19/23 cm</td>
+          <td colspan="3">160 µ / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>23/26cm</td>
-          <td colspan="4">150 unités par palette</td>
+          <td>23/26 cm</td>
+          <td colspan="4">150 µ / palette</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>26/29cm</td>
-          <td colspan="5">130 unités par palette</td>
+          <td>26/29 cm</td>
+          <td colspan="5">130 µ / palette</td>
         </tr>
         <tr>
-          <td>29cm et plus</td>
+          <td>29 cm et plus</td>
           <td>-</td>
-          <td colspan="4">110 unités par palette</td>
+          <td colspan="4">110 µ / palette</td>
         </tr>
       </table>
     </div>
@@ -94,34 +94,34 @@
       <table>
         <tr>
           <th colspan="2">Longueurs</th>
-          <th>1m80</th>
-          <th>2m</th>
-          <th>2m30</th>
-          <th>2m50</th>
-          <th>3m</th>
-          <th>4m</th>
+          <th>1m 80</th>
+          <th>2m 00</th>
+          <th>2m 30</th>
+          <th>2m 50</th>
+          <th>3m 00</th>
+          <th>4m 00</th>
         </tr>
         <tr>
           <td rowspan="4">Diamètres bout fin</td>
-          <td>6/8cm</td>
-          <td colspan="3">80 unités par palette</td>
+          <td>6/8 cm</td>
+          <td colspan="3">80 µ / palette</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>8/10cm</td>
-          <td colspan="4">71 unités par palette</td>
+          <td>8/10 cm</td>
+          <td colspan="4">71 µ / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <td>10/12cm</td>
-          <td colspan="6">56 unités par palette</td>
+          <td>10/12 cm</td>
+          <td colspan="6">56 µ / palette</td>
         </tr>
         <tr>
-          <td>12/15cm</td>
-          <td colspan="6">42 unités par palette</td>
+          <td>12/15 cm</td>
+          <td colspan="6">42 µ / palette</td>
         </tr>
       </table>
 
