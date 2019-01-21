@@ -23,6 +23,7 @@ h1 {
 #details {
   display: flex;
 }
+
 #details div:nth-child(1){
   margin: 10px 5px 10px 10px;
 }
@@ -98,6 +99,23 @@ h1 {
   grid-row: 10/17;
 }
 
+/* TABLE */
+table {
+  width: 100%;
+  text-align: center;
+  background-color: #c09066;
+  border: 2px solid #570d0b;
+}
+
+  tr, td {
+  border: 1px solid #570d0b;
+}
+
+#details div {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* MEDIA QUERY */
 @media (max-width: 768px) {
   #produits div, #details div {
@@ -119,5 +137,10 @@ h1 {
   }
   .carousel-item {
     height: 200px;
+  }
+  .verticalCells {
+    text-transform: uppercase;
+    writing-mode: sideways-lr;
+    width: 25px;
   }
 }
