@@ -56,4 +56,7 @@ footer {
   #planDuSite {
     width: 100%;
   }
+  #planDuSite li {
+    list-style: disc;
+  }
 }

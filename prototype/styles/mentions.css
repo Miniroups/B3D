@@ -52,4 +52,7 @@
     #mentions p{
       margin: auto 20px;
     }
+    #mentions li {
+      list-style: disc;
+    }
   }
