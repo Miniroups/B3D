@@ -33,13 +33,21 @@ h1 {
   margin: 10px 10px 10px 5px;
 }
 
-#produits div, #details div {
+#details div {
   background-color: #97683f;
   flex-direction: column;
   padding: 10px;
   margin: 5px auto;
   text-align: justify;
   width: 80%;
+}
+
+#produits div {
+  background-color: #97683f;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0px 5px 10px 5px;
+  text-align: justify;
 }
 
 /* Décalage en quinquonce */
@@ -128,6 +136,7 @@ tr, td, th {
   #produits div, #details div {
     width: 100%;
     padding: 20px;
+    margin: 5px auto;
   }
 
   #produits div:nth-child(2), #produits div:nth-child(3), #produits div:nth-child(4) {

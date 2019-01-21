@@ -13,15 +13,15 @@ header ul {
 }
 
 #logoB3D {
-  
+
   position: absolute; left: 0; top: 0; z-index: 1;
-  
+
   transform: translate(0, -5%);
-  
+
   min-width: 0; background: transparent;
 }
 
-#logoB3D img { height: 9.5em; filter: drop-shadow(1px 1px 10px maroon); }
+#logoB3D img { height: 9.5em; filter: drop-shadow(1px 1px 10px #570d0b); }
 
 /* DRAPEAUX EN MODE DESKTOP */
 #flags {
@@ -56,11 +56,11 @@ header ul {
 
       transform: translate(-50%, 0) scale(1.25);
   }
-  
+
   #logoB3D img { max-height: 70px; }
-  
+
   #flags { display: none; }
-  
+
   #notFlags { display: block; }
 }
 
