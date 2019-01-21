@@ -91,7 +91,7 @@
 <div class="row">
 <div class="form-group col-md-12">
 <label for="opt-in-checkbox"><input id="opt-in-checkbox" type="checkbox">
-J'accepte la <a href="privacy-policy.php">politique de confidentialité</a> du site</label>
+J'accepte la <a href="mentions.php">politique de confidentialité</a> du site</label>
 <!-- form-group --></div>
 <!-- row --></div>
 
