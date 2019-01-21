@@ -18,6 +18,8 @@ class FormData {
     $this->checkRequired();
 
     $this->checkLength();
+    
+    $this->checkSpecials();
 
     $this->validate();
     
@@ -50,6 +52,21 @@ class FormData {
       if(strlen($raw) > $description['max-length']) {
 
         $this->o['errorMessages'][$input] = $this->o['messages']['max-length'];
+      }
+    }
+  }
+  
+  protected function checkSpecials() {
+   
+    foreach($this->o['inputs'] as $input => $description) {
+      
+      $raw = $this->o['rawData'][$input];
+      
+      if(empty($raw) || empty($description['specials'])) { continue; }
+      
+      if(preg_match('/[&"<>]/', $raw)) {
+
+        $this->o['errorMessages'][$input] = $this->o['messages']['specials'];
       }
     }
   }

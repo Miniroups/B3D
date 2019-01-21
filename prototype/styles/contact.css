@@ -68,7 +68,7 @@ form.contact-form #contact-form-submit-button:not([disabled]):focus { background
 
 form.contact-form #contact-form-submit-button[disabled] { cursor: not-allowed; opacity: 0.65; }
 
-form.contact-form .error-message { font-size: 0.9em; min-height: 1.5em; margin-top: 0.25em; color: red; }
+form.contact-form .error-message { font-size: 0.9em; min-height: 1.5em; color: red; }
 
 form.contact-form #status-message {
   

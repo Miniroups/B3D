@@ -8,9 +8,12 @@ $destination = 'jeremie.cheney@gmail.com';
 
 $inputDescriptions = [
 
-  'raison-sociale' => [ 'required' => true, 'max-length' => 64 ],
-  'first-name'     => ['required' => true,  'max-length' => 64],
-  'last-name'      => ['required' => true,  'max-length' => 64],
+  'raison-sociale' => ['required' => true,  'max-length' => 64],
+  'first-name'     => ['required' => true,  'max-length' => 64,  'specials' => true],
+  'last-name'      => ['required' => true,  'max-length' => 64,  'specials' => true],
+  'address'        => ['required' => false, 'max-length' => 256, 'specials' => true],
+  'postal-code'    => ['required' => true,  'max-length' => 12],
+  'city'           => ['required' => true,  'max-length' => 64,  'specials' => true],
   'email'          => ['required' => true,  'max-length' => 64],
   'phone'          => ['required' => false, 'max-length' => 14],
   'message'        => ['required' => true,  'max-length' => 3000]
@@ -25,23 +28,21 @@ $validationFunctions = [
     return !empty($raisonSociale) && in_array($raisonSociale, $raisonsSociales);
   },
 
-  'first-name' => function($firstName = '') { return !empty($firstName) && !preg_match('/[&"<>]/', $firstName); },
+  'postal-code' => function($str = '') { return !empty($str) && preg_match('/[0-9A-Z ]/', $str); },
+          
+  'email' => function($str = '') { return !empty($str) && filter_var($str, FILTER_VALIDATE_EMAIL); },
 
-  'last-name' => function($lastName = '') { return !empty($lastName) && !preg_match('/[&"<>]/', $lastName); },
-
-  'email' => function($email = '') { return !empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL); },
-
-  'phone' => function($phone = '') { return !empty($phone) && preg_match('/^([0-9]{2} ){4}[0-9]{2}$/', $phone); }
+  'phone' => function($str = '') { return !empty($str) && preg_match('/^([0-9]{2} ){4}[0-9]{2}$/', $str); }
 ];
 
 $errorMessages = [
 
   'required'   => 'Information requise',
   'max-length' => 'Information trop longue',
+  'specials'   => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
 
   'raison-sociale' => 'Choix invalide',
-  'first-name'     => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
-  'last-name'      => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
+  'postal-code'    => 'Format invalide',
   'email'          => 'Adresse invalide',
   'phone'          => 'Format invalide'
 ];
@@ -78,8 +79,14 @@ function sendMail($data, $destination, $statusMessages) {
              'Content-Type: text/plain; charset=utf-8'.$L;
              //'Content-Type: text/html; charset=utf-8'.$L;
              'Content-Transfer-Encoding: 7bit';
+             
+  $message = $L.'Raison sociale: '.$data['raison-sociale'].
+             $L.'Prénom: '.$data['first-name'].' Nom: '.$data['last-name'].
+             $L.(empty($data['address']) ? '' : 'Adresse: '.$data['address'].' ').'Code postal: '.$data['postal-code'].' Ville: '.$data['city'].
+             $L.'Courriel: '.$data['email'].(empty($data['phone']) ? '' : ' Téléphone: '.$data['phone']).
+             $L.$L.$data['message'];
 
-  $status = mail($destination, $subject, $data['message'], $headers);
+  $status = mail($destination, $subject, $message, $headers);
 
   return $status ? $statusMessages[0] : $statusMessages[1];
 }
