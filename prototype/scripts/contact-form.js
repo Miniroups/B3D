@@ -26,7 +26,7 @@ function ContactForm(url) {
 
     e.preventDefault();
 
-    $.ajax({type: 'POST', url: url, data: form.serialize(), datatType: 'json', success: onSuccess });
+    $.ajax({type: 'POST', url: url, data: form.serialize(), dataType: 'json', success: onSuccess });
   });
 
   function onSuccess(response) {
