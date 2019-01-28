@@ -27,7 +27,7 @@
 <option value="autre">autre</option>
 </select>
 <div class="error-message"></div>
-</div>
+<!-- form-group --></div>
   
 <div class="form-group col-md-4">
 <label for="first-name" class="required">Prénom</label>
@@ -47,13 +47,13 @@
 <label for="address">Adresse</label>
 <input id="address" class="form-control" name="address" type="text" placeholder="Votre adresse">
 <div class="error-message"></div>
-</div>
+<!-- form-group --></div>
 
 <div class="form-group col-md-3">
 <label for="postal-code" class="required">Code Postal</label>
 <input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="Code Postal">
 <div class="error-message"></div>
-</div>
+<!-- form-group --></div>
 
 <div class="form-group col-md-3">
 <label for="city" class="required">Ville</label>
