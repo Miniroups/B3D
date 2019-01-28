@@ -60,7 +60,7 @@
 <input id="city" class="form-control" name="city" type="text" placeholder="Ville">
 <div class="error-message"></div>
 </div>
-</div>
+<!-- row --></div>
 
 <div class="row">
 <div class="form-group col-md-6">
