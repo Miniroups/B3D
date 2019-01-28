@@ -40,8 +40,6 @@ function ContactForm(url) {
       $('.error-message').empty();
 
       statusMessage.html(responseObject['msg']);
-
-      if(responseObject['mail-data']) { form.append(responseObject['mail-data']); } // for testing purposes
     }
     else {
 
