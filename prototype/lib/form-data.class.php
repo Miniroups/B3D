@@ -9,6 +9,10 @@ class FormData {
     $inputNames = array_keys($inputDescriptions);
     
     foreach($data as $key => $raw) {
+
+      $desc = $inputDescriptions[$key];
+
+      if(!empty($desc['type']) && $desc['type'] === 'file') { continue; }
       
       $this->sanitizedData[$key] = '';
       
@@ -18,9 +22,7 @@ class FormData {
         
         continue;
       }
-      
-      $desc = $inputDescriptions[$key];
-      
+
       if($raw === '') {
         
         if(!empty($desc['required'])) { 
@@ -54,9 +56,9 @@ class FormData {
       
       $sanitized = htmlspecialchars(trim($raw), ENT_COMPAT, 'utf-8');
 
-      if(!empty($desc[$key]['type'])) {
+      if(!empty($desc['type'])) {
         
-        switch($desc[$key]['type']) {
+        switch($desc['type']) {
 
           case('integer'): $cast = (integer) $sanitized; break;
 
