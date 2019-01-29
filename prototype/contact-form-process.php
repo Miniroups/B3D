@@ -56,9 +56,9 @@ if(!$formData->isValidated()) {
   exit(json_encode(['status' => 'error', 'errors' => $formData->getErrorMessages()]));
 }
 
-$status = sendMail($destination, $formData->getSanitizedData());
+$mailStatus = sendMail($destination, $formData->getAssoc());
 
-exit(json_encode(['status' => 'ok', 'msg' => $status ? $statusMessages[0] : $statusMessages[1]]));
+exit(json_encode(['status' => 'ok', 'msg' => $mailStatus ? $statusMessages[0] : $statusMessages[1]]));
 
 ////////////////////////////////////////////////////////////////////////////////
 

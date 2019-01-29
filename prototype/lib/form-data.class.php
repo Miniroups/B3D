@@ -75,7 +75,11 @@ class FormData {
 
   public function isValidated() { return empty($this->errorMessages); }
 
-  public function getSanitizedData() { return $this->sanitizedData; }
+  public function getAssoc() { return $this->sanitizedData; }
+
+  public function getKeys() { return array_keys($this->sanitizedData); }
+
+  public function getValues() { return array_values($this->sanitizedData); }
 
   public function getErrorMessages() { return $this->errorMessages; }
 }
