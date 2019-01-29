@@ -2,10 +2,7 @@ window.addEventListener('load', function() { new ContactForm('contact-form-proce
 
 function ContactForm(url) {
 
-  var form = $('form[name="contact-form"]'),
-      optInCheckbox = $('#opt-in-checkbox'),
-      submitButton = $('#contact-form-submit-button'),
-      statusMessage = $('#status-message');
+  var form = $('form[name="contact-form"]'), statusMessage = $('#status-message');
 
   form.find(':input').each(function() {
 
@@ -17,7 +14,9 @@ function ContactForm(url) {
     });
   });
 
-  optInCheckbox.on('change', function() {
+  var submitButton = $('#contact-form-submit-button');
+
+  $('#opt-in-checkbox').on('change', function() {
 
     submitButton.prop('disabled', !$(this).is(':checked'));
   });
@@ -31,21 +30,19 @@ function ContactForm(url) {
 
   function onSuccess(response) {
     
-    var responseObject = JSON.parse(response);
-    
-    if(responseObject['status'] === 'ok') {
+    if(response['status'] === 'ok') {
 
       form[0].reset();
 
       $('.error-message').empty();
 
-      statusMessage.html(responseObject['msg']);
+      statusMessage.html(response['msg']);
     }
     else {
 
       form.find(':input').each(function() {
 
-        $(this).next('.error-message').html(responseObject['errors'][$(this).prop('name')]);
+        $(this).next('.error-message').html(response['errors'][$(this).prop('name')]);
       });
     }
   }

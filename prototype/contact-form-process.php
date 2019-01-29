@@ -51,17 +51,18 @@ $statusMessages = [
 
 $formData = new FormData($_POST, $inputDescriptions, $validationFunctions, $errorMessages);
 
-if($formData->isValidated()) {
+if(!$formData->isValidated()) {
 
-  $statusMessage = sendMail($formData->getSanitizedData(), $destination, $statusMessages);
-
-  exit(json_encode(['status' => 'ok', 'msg' => $statusMessage]));
+  exit(json_encode(['status' => 'error', 'errors' => $formData->getErrorMessages()]));
 }
-else { exit(json_encode(['status' => 'error', 'errors' => $formData->getErrorMessages()])); }
+
+$status = sendMail($destination, $formData->getSanitizedData());
+
+exit(json_encode(['status' => 'ok', 'msg' => $status ? $statusMessages[0] : $statusMessages[1]]));
 
 ////////////////////////////////////////////////////////////////////////////////
 
-function sendMail($data, $destination, $statusMessages) {
+function sendMail($destination, $data) {
   
   $subject = '=?utf-8?B?'.base64_encode('Site B3D - '.$data['raison-sociale']).'?=';
 
@@ -77,13 +78,12 @@ function sendMail($data, $destination, $statusMessages) {
              
   $message = $L.'Raison sociale: '.$data['raison-sociale'].
              $L.'Prénom: '.$data['first-name'].' Nom: '.$data['last-name'].
-             $L.(empty($data['address']) ? '' : 'Adresse: '.$data['address'].' ').'Code postal: '.$data['postal-code'].' Ville: '.$data['city'].
+             $L.(empty($data['address']) ? '' : 'Adresse: '.$data['address'].' ').
+             'Code postal: '.$data['postal-code'].' Ville: '.$data['city'].
              $L.'Courriel: '.$data['email'].(empty($data['phone']) ? '' : ' Téléphone: '.$data['phone']).
              $L.$L.$data['message'];
 
-  $status = mail($destination, $subject, $message, $headers);
-
-  return $status ? $statusMessages[0] : $statusMessages[1];
+  return mail($destination, $subject, $message, $headers);
 }
 
 ///////////////////////////////////////////////////////////////////////////// ?>
