@@ -26,24 +26,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/Ac1.JPG" alt="First slide">
+      <img class="d-block w-100" src="images/Pi1.JPG" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 1</h5>
-        <p>Caption 1</p>
+        <h5>Grume de Pin</h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/Ac2.JPG" alt="Second slide">
+      <img class="d-block w-100" src="images/Pi2.JPG" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 2</h5>
-        <p>Caption 2</p>
+        <h5>Piquets en Pin</h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/Ac3.JPG" alt="Third slide">
+      <img class="d-block w-100" src="images/Pi3.JPG" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 3</h5>
-        <p>Caption 3</p>
+        <h5>Piquets en Pin</h5>
+        <p></p>
       </div>
     </div>
   </div>
