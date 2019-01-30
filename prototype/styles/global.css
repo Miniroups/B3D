@@ -40,7 +40,41 @@ h1 {
   color: #570d0b;
   font-family: 'Raleway', sans-serif;
 }
+/* TABLE */
+table {
+  width: 100%;
+  text-align: center;
+  background-color: #c09066;
+  border: 2px solid #570d0b;
+}
 
+tr, td, th {
+  border: 1px solid #570d0b;
+}
+
+#bubulle {
+  /* background-color: #036338; */
+  text-align: right;
+  position: fixed;
+  bottom: 7vh;
+  left: -2vh;
+  /* border-radius: 50%; */
+  width: 14vh;
+  height: 14vh;
+  z-index: 500;
+}
+/* #bubulle p {
+  position: fixed;
+  bottom: 12vh;
+  left: -.5vh;
+  z-index: 510;
+  color: #fff;
+  transform: rotate(-90deg);
+
+}
+#bubulle img {
+  transform: rotate(-90deg);
+} */
 /* MEDIA QUERY */
 @media (max-width: 768px) {
   p {
