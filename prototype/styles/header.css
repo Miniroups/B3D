@@ -174,27 +174,6 @@ nav.sauge li:not(.active) a:hover {
     white-space: nowrap;
   }
 
-  nav.sauge ul li {
-    position: relative;
-    width: 10em;
-  }
-
-  nav.sauge>ul>li>ul {
-    max-height: 0;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    z-index: 100000;
-    transition: max-height 0s ease-in;
-  }
-
-  nav.sauge>ul>li:hover>ul {
-    max-height: 1000%;
-    transition-duration: 1s;
-  }
-
   nav.sauge>ul>li {
     text-align: center;
   }
@@ -202,4 +181,65 @@ nav.sauge li:not(.active) a:hover {
   nav.sauge a {
     display: block;
   }
+
+  nav.sauge ul li {
+    position: relative;
+    width: 10em;
+  }
+
+  nav.sauge>ul>li>ul, nav.sauge>ul>li>.nav-panel {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    z-index: 10;
+    transition: max-height 0s ease-in;
+  }
+
+  nav.sauge>ul>li>ul {
+    width: 100%;
+  }
+
+  nav.sauge>ul>li>.nav-panel {
+    background-color: #fff;
+    width: 46em;
+    transform: translate(-50%, 0);
+  }
+
+  nav.sauge>ul>li:hover>ul, nav.sauge>ul>li:hover>.nav-panel {
+    max-height: 100vh;
+    transition-duration: 1s;
+  }
+
+  nav.sauge>ul>li:hover>.nav-panel {
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    box-shadow: 1px 1px 3px #000;
+  }
+
+  .product-area-content {
+  
+    padding: 0.25em;
+  
+    display: flex; flex-wrap: wrap;
+  
+    justify-content: space-around; align-items: center;
+  
+    background-color: #330100;
+  }
+  
+  .product-link {
+  
+    width: 48%; margin: 0.3em; padding: 0.5em !important;
+  
+    border: 1px solid #777; border-radius: 0.25em;
+  }
+
+  .product-link:hover { background-color: #b9645f; }
+  
+  .product-link img { display: block; width: 100%; border-radius: 0.25em; }
+  
+  .product-link .product-name { font-size: 1.25em; margin-top: 0.25em; }
 }

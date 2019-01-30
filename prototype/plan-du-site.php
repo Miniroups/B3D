@@ -16,7 +16,7 @@
       <p>Produits</p>
       <li><a href="acacia.php">Acacia</a></li>
       <li><a href="pin.php">Pin</a></li>
-      <li><a href="chataigner.php">Châtaigner</a</li>
+      <li><a href="chataignier.php">Châtaigner</a</li>
       <li><a href="bois-de-chauffe.php">Bois de chauffe</a></li>
       </li>
       <hr>

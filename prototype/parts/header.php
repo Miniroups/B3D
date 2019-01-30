@@ -18,12 +18,29 @@
 
       <li>
         <a>Produits</a>
-        <ul>
-          <li><a href="acacia.php">Acacia</a></li>
-          <li><a href="pin.php">Pin</a></li>
-          <li><a href="chataigner.php">Châtaigner</a></li>
-          <li><a href="bois-de-chauffe.php">Bois de chauffe</a></li>
-        </ul>
+<div class="nav-panel">
+<div class="product-area-content">
+<a class="product-link" href="acacia.php">
+<img src="images/menu-produits-acacia-5-small.jpg" alt="produits B3D - acacia">
+<div class="product-name">Acacia</div>
+</a>
+
+<a class="product-link" href="pin.php">
+<img src="images/menu-produits-pin-1-small.jpg" alt="produits B3D - pin">
+<div class="product-name">Pin</div>
+</a>
+
+<a class="product-link" href="chataignier.php">
+<img src="images/menu-produits-chataignier-2-small.jpg" alt="produits B3D - chataignier">
+<div class="product-name">Châtaignier</div>
+</a>
+
+<a class="product-link" href="bois-de-chauffe.php">
+<img src="images/menu-produits-acacia-7-small.jpg" alt="produits B3D - bois de chauffe">
+<div class="product-name">Bois de chauffage</div>
+</a>
+<!-- product-area-content --></div>
+<!-- nav-panel --></div>
       </li>
 
       <li>
