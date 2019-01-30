@@ -129,6 +129,8 @@
 
   <!-- INCLUDE DE LA SECTION CONTACT -->
   <?php include_once('parts/section-contact.php'); ?>
+  <!-- INCLUDE DU MODAL -->
+  <?php include_once('parts/modal.php'); ?>
   <!-- INCLUDE DU FOOTER -->
   <?php include_once('parts/footer.php'); ?>
 </body>
