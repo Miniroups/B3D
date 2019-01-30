@@ -8,6 +8,13 @@
 
 <body>
 <h1>Bois de chauffe</h1>
+  <section id="details">
+    <div class="text-center">
+      <h3>Caractéristiques</h3>
+      <p>Notre bois de chauffage issu de notre production de piquets acacia est vendu sous forme de fagots de 2 ou 2,5 stères ou de bûches fendues de 30 cm.</p>
+    </div>
+  </section>
+  
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#indicateurs" data-slide-to="0" class="active"></li>
@@ -46,22 +53,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-  <section id="details">
-
-    <div>
-      <h3>Usages</h3>
-      <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
-        repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-    </div>
-
-    <div>
-      <h3>Caractéristiques</h3>
-      <p>Ipsam vero urbem Byzantiorum fuisse refertissimam atque ornatissimam signis quis ignorat? Quae illi, exhausti sumptibus bellisque maximis, cum omnis Mithridaticos impetus totumque Pontum armatum affervescentem in Asiam atque erumpentem, ore
-        repulsum et cervicibus interclusum suis sustinerent, tum, inquam, Byzantii et postea signa illa et reliqua urbis ornanemta sanctissime custodita tenuerunt.</p>
-    </div>
-
-  </section>
 
   <!-- INCLUDE DE LA SECTION CONTACT -->
   <?php include_once('parts/section-contact.php'); ?>
