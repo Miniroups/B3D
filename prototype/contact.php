@@ -103,7 +103,5 @@ J'accepte la <a href="mentions.php">politique de confidentialité</a> du site</l
     
     <!-- INCLUDE DU FOOTER -->
     <?php include_once('parts/footer.php'); ?>
-    <!-- Script -->
-    <?php include_once('parts/scripts-communs.php'); ?>
   </body>
 </html>

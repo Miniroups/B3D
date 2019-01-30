@@ -18,8 +18,6 @@
 
   <!-- INCLUDE DU FOOTER -->
   <?php include_once('parts/footer.php'); ?>
-  <!-- Script -->
-  <?php include_once('parts/scripts-communs.php'); ?>
 </body>
 
 </html>

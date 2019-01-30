@@ -12,4 +12,9 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/section-contact.css">
   <link rel="stylesheet" href="styles/footer.css">
-  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css">
+
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/popper.min.js" type="text/javascript"></script>
+  <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
+  <script src="scripts/script.js" type="text/javascript"></script>

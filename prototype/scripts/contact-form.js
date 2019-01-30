@@ -1,4 +1,4 @@
-window.addEventListener('load', function() { new ContactForm('contact-form-process.php'); });
+window.addEventListener('DOMContentLoaded', function() { new ContactForm('contact-form-process.php'); });
 
 function ContactForm(url) {
 
