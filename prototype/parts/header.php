@@ -1,3 +1,9 @@
+<?php
+
+echo $_SERVER['REQUEST_URI'];
+
+?>
+
 <header>
   <nav class="sauge">
     <a id="logoB3D" href="index.php"><img src="images/logo.png"></a>
@@ -30,7 +36,7 @@
         <a href="contact.php">Contact</a>
       </li>
       <li id="notFlags">
-        <a href="#index.php">Langues</a>
+        <a href="index.php">Langues</a>
         <ul>
           <li><a href="index.php">Français</a></li>
           <li><a href="index.php">English</a></li>
@@ -85,4 +91,5 @@
       }
     });
   });
+
 </script>
