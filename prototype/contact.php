@@ -100,7 +100,7 @@ J'accepte la <a href="mentions.php">politique de confidentialité</a> du site</l
 
 <script>
 
-window.addEventListener('DOMContentLoaded', function() { new ContactForm('contact-form-process.php'); });
+window.addEventListener('DOMContentLoaded', function() { new ContactForm('contact-process.php'); });
 
 function ContactForm(url) {
 
