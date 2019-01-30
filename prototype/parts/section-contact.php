@@ -23,7 +23,7 @@
         attribution: 'Données &copy; Contributeurs <a href="http://openstreetmap.org">OpenStreetMap</a> + ' +
           '<a href="http://mapbox.com">Mapbox</a> | ' +
           '<a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a> ' +
-          'C\'est bibi qui l\'a fait !', /* set the map's caption */
+          '', /* set the map's caption */
           id: 'mapbox.streets' /* mapbox.light / dark / streets / outdoors / satellite */
       }).addTo(mymap);
 
