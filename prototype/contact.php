@@ -13,7 +13,7 @@
     </div>
 
     <section id="contact-form-section">
-      
+
 <form class="contact-form container-fluid" name="contact-form" autocomplete="on">
 
 <div class="row">
@@ -27,7 +27,7 @@
 </select>
 <div class="error-message"></div>
 <!-- form-group --></div>
-  
+
 <div class="form-group col-md-4">
 <label for="first-name" class="required">Prénom</label>
 <input id="first-name" class="form-control" name="first-name" type="text" placeholder="">
@@ -40,7 +40,7 @@
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
-  
+
 <div class="row">
 <div class="form-group col-md-6">
 <label for="address">Adresse</label>
@@ -131,7 +131,7 @@ function ContactForm(url) {
   });
 
   function onSuccess(response) {
-    
+
     if(response['status'] === 'ok') {
 
       form[0].reset();
@@ -151,9 +151,9 @@ function ContactForm(url) {
 }
 
 </script>
-      
+
     </section>
-    
+
     <!-- INCLUDE DU FOOTER -->
     <?php include_once('parts/footer.php'); ?>
   </body>
