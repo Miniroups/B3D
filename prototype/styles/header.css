@@ -105,14 +105,16 @@ nav.sauge a {
 
 nav.sauge a:not([href]) { cursor: default; }
 
-.sauge ul li ul li a {
+nav.sauge ul li ul li a {
   background-color: #97423f !important;
 }
-.sauge ul li ul li a:hover {
+nav.sauge ul li ul li a:hover {
   background-color: #330100 !important;
 }
 
-nav.sauge a:hover {
+nav.sauge > ul > li.active > a { background-color: #b9645f !important; }
+
+nav.sauge li:not(.active) a:hover {
   background-color: #330100;
   color: #fff;
   font-weight: bold;

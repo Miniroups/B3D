@@ -1,9 +1,3 @@
-<?php
-
-echo $_SERVER['REQUEST_URI'];
-
-?>
-
 <header>
   <nav class="sauge">
     <a id="logoB3D" href="index.php"><img src="images/logo.png"></a>
@@ -90,6 +84,21 @@ echo $_SERVER['REQUEST_URI'];
         mode = 'collapse';
       }
     });
+
+    hightLightTopNavItem();
   });
+
+  function hightLightTopNavItem() {
+
+    var currentPage = window.location.href.split('/').pop();
+
+    var a = document.querySelector('a[href="' + currentPage + '"]');
+
+    var topLI = a.closest('nav > ul > li');
+
+    topLI.classList.add('active');
+
+    topLI.querySelector('a').removeAttribute('href');
+  }
 
 </script>
