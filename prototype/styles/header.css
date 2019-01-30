@@ -112,7 +112,7 @@ nav.sauge ul li ul li a:hover {
   background-color: #330100;
 }
 
-nav.sauge > ul > li.active > a { background-color: #b9645f !important; }
+nav.sauge > ul > li.active > a { background-color: #97423f !important; }
 
 nav.sauge li:not(.active) a:hover {
   background-color: #330100;
@@ -237,7 +237,7 @@ nav.sauge li:not(.active) a:hover {
     border: 1px solid #777; border-radius: 0.25em;
   }
 
-  .product-link:hover { background-color: #b9645f; }
+  .product-link:hover { background-color: #97423f; }
   
   .product-link img { display: block; width: 100%; border-radius: 0.25em; }
   
