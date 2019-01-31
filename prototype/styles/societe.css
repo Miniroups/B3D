@@ -4,7 +4,6 @@ body {
 }
 
 p {
-  font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -16,6 +15,7 @@ p {
 }
 
 .encart, .invert-encart {
+  font-size: 20px;
   display: flex;
   padding: 80px 0;
   /* Create the parallax scrolling effect */
