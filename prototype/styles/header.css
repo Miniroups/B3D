@@ -142,6 +142,10 @@ nav.sauge li:not(.active) a:hover {
     width: 90%;
   }
 
+  nav.sauge>ul>li>.nav-panel {
+    display: none;
+  }
+
   nav.sauge a {
     display: inline-block;
     font-size: 1.2em;
