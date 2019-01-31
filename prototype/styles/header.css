@@ -240,7 +240,7 @@ nav.sauge li:not(.active) a:hover {
   }
 
   .product-link:hover {
-    background-color: #97423f;
+    background-color: #97423f !important;
     transform: scale(1.05);
     font-weight: bold;
   }
