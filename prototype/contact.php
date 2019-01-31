@@ -104,7 +104,9 @@ window.addEventListener('DOMContentLoaded', function() { new ContactForm('contac
 
 function ContactForm(url) {
 
-  var form = $('form[name="contact-form"]'), statusMessage = $('#status-message');
+  var form = $('form[name="contact-form"]'),
+      optInCheckbox = $('#opt-in-checkbox'),
+      statusMessage = $('#status-message');
 
   form.find(':input').each(function() {
 
@@ -118,7 +120,7 @@ function ContactForm(url) {
 
   var submitButton = $('#contact-form-submit-button');
 
-  $('#opt-in-checkbox').on('change', function() {
+  optInCheckbox.on('change', function() {
 
     submitButton.prop('disabled', !$(this).is(':checked'));
   });
@@ -139,6 +141,8 @@ function ContactForm(url) {
       $('.error-message').empty();
 
       statusMessage.html(response['msg']);
+
+      optInCheckbox.prop('checked', true);
     }
     else {
 
