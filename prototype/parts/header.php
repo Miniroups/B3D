@@ -1,4 +1,3 @@
-<?php require_once('langue/langue.php') ?>
 <header>
   <nav class="sauge">
     <a id="logoB3D" href="index.php"><img src="images/logo.png"></a>

@@ -30,13 +30,13 @@
 
 <div class="form-group col-md-4">
 <label for="first-name" class="required"><?= $_SESSION['translate']['form_field_2'];?></label>
-<input id="first-name" class="form-control" name="first-name" type="text" placeholder="">
+<input id="first-name" class="form-control" name="first-name" type="text" placeholder="<?= $_SESSION['translate']['form_field_2_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-4">
 <label for="last-name" class="required"><?= $_SESSION['translate']['form_field_3'];?></label>
-<input id="last-name" class="form-control" name="last-name" type="text" placeholder="">
+<input id="last-name" class="form-control" name="last-name" type="text" placeholder="<?= $_SESSION['translate']['form_field_3_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
@@ -44,19 +44,19 @@
 <div class="row">
 <div class="form-group col-md-6">
 <label for="address"><?= $_SESSION['translate']['form_field_4'];?></label>
-<input id="address" class="form-control" name="address" type="text" placeholder="Votre adresse">
+<input id="address" class="form-control" name="address" type="text" placeholder="<?= $_SESSION['translate']['form_field_4_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-3">
 <label for="postal-code" class="required"><?= $_SESSION['translate']['form_field_5'];?></label>
-<input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="Code Postal">
+<input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="<?= $_SESSION['translate']['form_field_5_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-3">
 <label for="city" class="required"><?= $_SESSION['translate']['form_field_6'];?></label>
-<input id="city" class="form-control" name="city" type="text" placeholder="Ville">
+<input id="city" class="form-control" name="city" type="text" placeholder="<?= $_SESSION['translate']['form_field_6_placeholder'] ?>">
 <div class="error-message"></div>
 </div>
 <!-- row --></div>
@@ -64,13 +64,13 @@
 <div class="row">
 <div class="form-group col-md-6">
 <label for="email" class="required"><?= $_SESSION['translate']['form_field_7'];?></label>
-<input id="email" class="form-control" name="email" type="email" placeholder="@">
+<input id="email" class="form-control" name="email" type="email" placeholder="<?= $_SESSION['translate']['form_field_7_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-6">
 <label for="telephone"><?= $_SESSION['translate']['form_field_8'];?></label>
-<input id="phone" class="form-control" name="phone" type="text" placeholder="format : 06 01 02 03 04">
+<input id="phone" class="form-control" name="phone" type="text" placeholder="<?= $_SESSION['translate']['form_field_8_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
@@ -78,7 +78,7 @@
 <div class="row">
 <div class="form-group col-md-12">
 <label for="message" class="required"><?= $_SESSION['translate']['form_field_9'];?></label>
-<textarea id="message" class="form-control" name="message" placeholder="Entrez ici votre message (maximum 3000 caractères)" rows="3" maxlength="3000"></textarea>
+<textarea id="message" class="form-control" name="message" placeholder="<?= $_SESSION['translate']['form_field_9_placeholder'] ?>" rows="3" maxlength="3000"></textarea>
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
