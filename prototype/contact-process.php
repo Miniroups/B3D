@@ -4,7 +4,7 @@ if($_SERVER['REQUEST_METHOD'] !== 'POST') { exit; }
 
 require 'lib/form-data.class.php';
 
-$destination = 'jeremie.cheney@gmail.com';
+$destination = 'julien.procedes@orange.fr';
 
 $inputDescriptions = [
 
