@@ -388,7 +388,7 @@
       'society_sav_title' => 'Our expertise',
       'society_sav_p' => 'The presence of a variety of local wood species has guided my choice on a flexible and flexible processing tool to produce acacia, pine and chestnut stakes of different sizes. Depending on the species and the diameter of the processed wood, two operations are carried out. <br> <br> A planing operation to bring a planed and smooth surface to the round woods or a slot operation allowing to follow the thread of the wood and maintain the mechanical strength of wood and avoid drying deformations. As a sanitary precaution a debarking operation is carried out for each species of wood. <br> <br> This operation makes it possible to avoid carrying any parasites such as xylophagous insects on the site of the clientele. Customer satisfaction is our primary goal and product quality control is achieved at every stage of processing.',
       'society_products_title' => 'Our products',
-      'society_products_p' => 'Our stakes and logs are produced from logs operated within a radius of 70 km. The pine comes from thinning cuttings planted after the 1999 storm. <br> <br> These juvenile woods commonly used for the establishment of anti-hail nets or trellising have a very low proportion of heartwood giving them very good ability to autoclave treatment. <br> <br> Our acacia logs have a very small amount of sapwood and tight growth rings giving the wood excellent natural durability and very good mechanical strength. <br> <br> All of our wood comes from sustainably managed cuts and generally benefits from PEFC certification.',
+      'society_products_p' => 'Our stakes and logs are produced from logs operated within a radius of 70 km. The pine comes from thinning cuttings planted after the 1999 storm. <br> <br> These juvenile woods commonly used for the establishment of anti-hail nets or trellising have a very low proportion of heartwood giving them very good ability to autoclave treatment. <br> <br> Our acacia logs have a very small amount of sapwood and tight growth rings giving the wood excellent natural durability and very good mechanical strength. > <br> All of our wood comes from sustainably managed cuts and generally benefits from PEFC certification.',
       // PRODUCTS Acacia
       'acacia_title' => 'B3D | Acacia',
       'acacia_h1' => 'Acacia',
@@ -605,7 +605,7 @@
       'mentions_privacy_li_1' => '<li> Identification data </ li>
        <li> Postal, telephone and electronic contact information </ li>
        <li> Status (individual or professional) </ li>',
-      'mentions_privacy_p_2' => 'This data is collected <em> only </em> when the user voluntarily communicates with the B3D company through the online contact form. This data is necessary for the processing of requests submitted by this intermediary. Nominative information is exclusively collected for internal use and will not be transmitted to third parties.',
+      'mentions_privacy_p_2' => 'This data is collected <em> only </ em> when the user voluntarily communicates with the B3D company through the online contact form. This data is necessary for the processing of requests submitted by this intermediary. Nominative information is exclusively collected for internal use and will not be transmitted to third parties.',
       'mentions_privacy_p_3' => 'In accordance with the regulations, you have the right to access, modify, rectify and delete data concerning you. To do this, the user should contact:',
       'mentions_privacy_li_2' => '      <li>Société B3D</li>
             <li>"l\'Intendant"</li>
@@ -917,7 +917,7 @@
       'mentions_privacy_li_1' => '<li> Datos de identificación </ li>
        <li> Información de contacto postal, telefónica y electrónica </ li>
        <li> Estado (individual o profesional) </ li>',
-      'mentions_privacy_p_2' => 'Estos datos se recopilan <em> solo </em> cuando el usuario se comunica voluntariamente con la compañía B3D a través del formulario de contacto en línea. Estos datos son necesarios para el procesamiento de las solicitudes enviadas por este intermediario. La información nominativa se recopila exclusivamente para uso interno y no se transmitirá a terceros.',
+      'mentions_privacy_p_2' => 'Estos datos se recopilan <em> solo </ em> cuando el usuario se comunica voluntariamente con la compañía B3D a través del formulario de contacto en línea. Estos datos son necesarios para el procesamiento de las solicitudes enviadas por este intermediario. La información nominativa se recopila exclusivamente para uso interno y no se transmitirá a terceros.',
       'mentions_privacy_p_3' => 'De acuerdo con las regulaciones, usted tiene derecho a acceder, modificar, rectificar y eliminar los datos que le conciernen. Para ello, el usuario debe contactar con:',
       'mentions_privacy_li_2' => '     <li>Société B3D</li>
             <li>"l\'Intendant"</li>
@@ -1248,31 +1248,32 @@
       'plan_site_plan_site' => 'Sitemap',
       ),
   );
-  if(!empty($_SESSION['lang'])) {
-    $translate['translate'] = $_SESSION['lang'];
-  }
-  if(empty($_SESSION['lang']) && (!isset($_GET['lang']))){
-    $_SESSION['translate'] = $translate['french'];
-    $_SESSION['lang'] = 'Français';
-  }
-  if(!isset($_GET['lang'])) {
-    $_GET['lang'] = 'Français';
-  }
 
-  if($_GET['lang'] == 'french') {
+  if(empty($_SESSION['lang'])) {
+
     $_SESSION['translate'] = $translate['french'];
     $_SESSION['lang'] = 'Français';
   }
-  if($_GET['lang'] == 'english') {
-    $_SESSION['translate'] = $translate['english'];
-    $_SESSION['lang'] = 'English';
-  }
-  if($_GET['lang'] == 'spanish') {
-    $_SESSION['translate'] = $translate['spanish'];
-    $_SESSION['lang'] = 'Espagnol';
-  }
-  if($_GET['lang'] == 'germany') {
-    $_SESSION['translate'] = $translate['germany'];
-    $_SESSION['lang'] = 'Deutsch';
+  else if(isset($_GET['lang'])) {
+
+    if($_GET['lang'] == 'french') {
+      $_SESSION['translate'] = $translate['french'];
+      $_SESSION['lang'] = 'Français';
+    }
+
+    if($_GET['lang'] == 'english') {
+      $_SESSION['translate'] = $translate['english'];
+      $_SESSION['lang'] = 'English';
+    }
+
+    if($_GET['lang'] == 'spanish') {
+      $_SESSION['translate'] = $translate['spanish'];
+      $_SESSION['lang'] = 'Espagnol';
+    }
+
+    if($_GET['lang'] == 'germany') {
+      $_SESSION['translate'] = $translate['germany'];
+      $_SESSION['lang'] = 'Deutsch';
+    }
   }
 ?>
