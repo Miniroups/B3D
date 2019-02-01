@@ -117,7 +117,7 @@
 
     if(!document.body.closest) { return; }
 
-    var currentPage = window.location.href.split('/').pop();
+    var currentPage = window.location.pathname.split('/').pop();
 
     var a = document.querySelector('a[href="' + currentPage + '"]');
 
