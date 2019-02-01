@@ -120,7 +120,7 @@ nav.sauge li:not(.active) a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   nav.sauge .nav-toggle {
     float: right;
   }
