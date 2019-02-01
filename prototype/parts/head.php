@@ -1,3 +1,5 @@
+<?php require_once('langue/langue.php') ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,4 +19,3 @@
   <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="scripts/popper.min.js" type="text/javascript"></script>
   <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
-  

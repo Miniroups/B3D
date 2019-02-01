@@ -1,7 +1,8 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
+  <?php require('langue/langue.php') ?>
   <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/index.css">
-  <title>B3D | Accueil</title>
+  <title><?= $_SESSION['translate']['index_title'];?></title>
 </head>
 
 <body>
@@ -9,10 +10,10 @@
   <section id="chooseLanguage">
     <img src="images/logo.png" alt="logo_B3D">
     <ul>
-      <li><a href="societe.php">Français</a></li>
-      <li><a href="societe.php">English</a></li>
-      <li><a href="societe.php">Español</a></li>
-      <li><a href="societe.php">Deutsch</a></li>
+      <li><a href="societe.php?lang=french">Français</a></li>
+      <li><a href="societe.php?lang=english">English</a></li>
+      <li><a href="societe.php?lang=spanish">Español</a></li>
+      <li><a href="societe.php?lang=germany">Deutsch</a></li>
     </ul>
   </section>
 

@@ -1,10 +1,10 @@
 <section id="section-contact">
     <div id="p-section-contact">
-      <h3>Restons en contact</h3>
-      <p><span>Téléphone :</span> 06 74 90 65 96</p>
-      <p><span>Email :</span> julien.procedes@orange.fr</p>
-      <p><span>Adresse :</span> " l'Intendant " 47700 Poussignac</p>
-      <p><span>Horaire d'ouverture :</span> Du lundi au vendredi 8h-12h 14h-18h et samedi 9h-12h</p>
+      <h3><?= $_SESSION['translate']['section_c_title']?></h3>
+      <p><span><?= $_SESSION['translate']['section_c_tel_s']?></span><?= $_SESSION['translate']['section_c_tel']?></p>
+      <p><span><?= $_SESSION['translate']['section_c_mail_s']?></span><?= $_SESSION['translate']['section_c_mail']?></p>
+      <p><span><?= $_SESSION['translate']['section_c_adresse_s']?></span><?= $_SESSION['translate']['section_c_adresse']?></p>
+      <p><span><?= $_SESSION['translate']['section_c_horaire_s']?></span><?= $_SESSION['translate']['section_c_horaire']?></p>
     </div>
 
     <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>

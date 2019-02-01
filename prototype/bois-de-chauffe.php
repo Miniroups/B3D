@@ -1,17 +1,17 @@
   <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
   <?php include_once('parts/head.php'); ?>
   <link rel="stylesheet" href="styles/produits.css">
-  <title>B3D | Bois de chauffe</title>
+  <title><?= $_SESSION['translate']['bois_chauffe_title'];?></title>
 </head>
 
 <?php include('parts/header.php'); ?>
 
 <body>
-<h1>Bois de chauffe</h1>
+<h1><?= $_SESSION['translate']['bois_chauffe_h1'];?></h1>
   <section id="details">
     <div class="text-center">
-      <h3>Caractéristiques</h3>
-      <p>Notre bois de chauffage issu de notre production de piquets acacia est vendu sous forme de fagots de 2 ou 2,5 stères ou de bûches fendues de 30 cm.</p>
+      <h3><?= $_SESSION['translate']['bois_chauffe_carac'];?></h3>
+      <p><?= $_SESSION['translate']['bois_chauffe_carac_p']?></p>
     </div>
   </section>
   
@@ -25,22 +25,22 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/Ac1.JPG" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 1</h5>
-        <p>Caption 1</p>
+        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_1'];?></h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ac2.JPG" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 2</h5>
-        <p>Caption 2</p>
+        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_2'];?></h5>
+        <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ac3.JPG" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Title 3</h5>
-        <p>Caption 3</p>
+        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_3'];?></h5>
+        <p></p>
       </div>
     </div>
   </div>
