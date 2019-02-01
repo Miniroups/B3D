@@ -63,7 +63,7 @@
       // Section-Contact
       'section_c_title' => 'Restons en contact',
       'section_c_tel_s' => 'Téléphone :',
-      'section_c_tel' => ' 06 74 90 65 96',
+      'section_c_tel' => ' 06 95 51 77 05',
       'section_c_mail_s' => 'Email :',
       'section_c_mail' => ' julien.procedes@orange.fr',
       'section_c_adresse_s' => 'Adresse :',
@@ -99,23 +99,23 @@
         <tr>
           <td rowspan="4">Périmètres bout fin</td>
           <td>19/23 cm</td>
-          <td colspan="3">160 µ / palette</td>
+          <td colspan="3">160 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>23/26 cm</td>
-          <td colspan="4">150 µ / palette</td>
+          <td colspan="4">150 pièces / palette</td>
           <td>-</td>
         </tr>
         <tr>
           <td>26/29 cm</td>
-          <td colspan="5">130 µ / palette</td>
+          <td colspan="5">130 pièces / palette</td>
         </tr>
         <tr>
           <td>29 cm et plus</td>
           <td>-</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       'acacia_table_2_title' => 'Piquets ronds',
@@ -132,24 +132,24 @@
         <tr>
           <td rowspan="4">Diamètres bout fin</td>
           <td>6/8 cm</td>
-          <td colspan="3">80 µ / palette</td>
+          <td colspan="3">80 pièces / palette</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>8/10 cm</td>
-          <td colspan="4">71 µ / palette</td>
+          <td colspan="4">71 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>10/12 cm</td>
-          <td colspan="6">56 µ / palette</td>
+          <td colspan="6">56 pièces / palette</td>
         </tr>
         <tr>
           <td>12/15 cm</td>
-          <td colspan="6">42 µ / palette</td>
+          <td colspan="6">42 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Bois de chauffe
@@ -186,11 +186,11 @@
         <tr>
           <td rowspan="2">Périmètres fin bout</td>
           <td>24/29 cm</td>
-          <td colspan="3">130 µ / palette</td>
+          <td colspan="3">130 pièces / palette</td>
         </tr>
         <tr>
           <td>28 cm et +</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Pin
@@ -215,15 +215,15 @@
       		<tr>
       			<td rowspan="3"><span class="verticalCells">Diamètres fin bout</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palettes</td>
+      			<td colspan="3">80 pièces / palettes</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="3">72 µ / palettes</td>
+      			<td colspan="3">72 pièces / palettes</td>
       		</tr>
       		<tr>
       			<td>12/14 cm</td>
-      			<td colspan="3">56 µ / palettes</td>
+      			<td colspan="3">56 pièces / palettes</td>
       		</tr>
       	</tbody>
       </table>',
@@ -243,23 +243,23 @@
       		<tr>
       			<td rowspan="4"><span class="verticalCells">Diamètres fin bout</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palettes</td>
+      			<td colspan="3">80 pièces / palettes</td>
       			<td colspan="4">-</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="4">72 µ / palettes</td>
-      			<td colspan="3">64 µ / palettes</td>
+      			<td colspan="4">72 pièces / palettes</td>
+      			<td colspan="3">64 pièces / palettes</td>
       		</tr>
       		<tr>
             <td>12/14 cm</td>
-      			<td colspan="4">56 µ / palettes</td>
-      			<td colspan="3">48 µ / palettes</td>
+      			<td colspan="4">56 pièces / palettes</td>
+      			<td colspan="3">48 pièces / palettes</td>
       		</tr>
       		<tr>
             <td>14/16 cm</td>
-      			<td colspan="4">42 µ / palettes</td>
-      			<td colspan="3">36 µ / palettes</td>
+      			<td colspan="4">42 pièces / palettes</td>
+      			<td colspan="3">36 pièces / palettes</td>
       		</tr>
       	</tbody>
       </table>',
@@ -382,7 +382,7 @@
       // Section-Contact
       'section_c_title' => 'Keep in touch',
       'section_c_tel_s' => 'Phone :',
-      'section_c_tel' => ' 06 74 90 65 96',
+      'section_c_tel' => ' 06 95 51 77 05',
       'section_c_mail_s' => 'Mail :',
       'section_c_mail' => ' julien.procedes@orange.fr',
       'section_c_adresse_s' => 'Address :',
@@ -418,23 +418,23 @@
         <tr>
           <td rowspan="4">Perimeters end end</td>
           <td>19/23 cm</td>
-          <td colspan="3">160 µ / palette</td>
+          <td colspan="3">160 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>23/26 cm</td>
-          <td colspan="4">150 µ / palette</td>
+          <td colspan="4">150 pièces / palette</td>
           <td>-</td>
         </tr>
         <tr>
           <td>26/29 cm</td>
-          <td colspan="5">130 µ / palette</td>
+          <td colspan="5">130 pièces / palette</td>
         </tr>
         <tr>
           <td>29 cm et plus</td>
           <td>-</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       'acacia_table_2_title' => 'Round stakes',
@@ -451,24 +451,24 @@
         <tr>
           <td rowspan="4">Fine end diameters</td>
           <td>6/8 cm</td>
-          <td colspan="3">80 µ / palette</td>
+          <td colspan="3">80 pièces / palette</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>8/10 cm</td>
-          <td colspan="4">71 µ / palette</td>
+          <td colspan="4">71 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>10/12 cm</td>
-          <td colspan="6">56 µ / palette</td>
+          <td colspan="6">56 pièces / palette</td>
         </tr>
         <tr>
           <td>12/15 cm</td>
-          <td colspan="6">42 µ / palette</td>
+          <td colspan="6">42 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Bois de chauffe
@@ -505,11 +505,11 @@
         <tr>
           <td rowspan="2">Perimeters late end</td>
           <td>24/29 cm</td>
-          <td colspan="3">130 µ / palette</td>
+          <td colspan="3">130 pièces / palette</td>
         </tr>
         <tr>
           <td>28 cm et +</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Pin
@@ -534,15 +534,15 @@
       		<tr>
       			<td rowspan="3"><span class="verticalCells">Diamètres fin bout</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palettes</td>
+      			<td colspan="3">80 pièces / palettes</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="3">72 µ / palettes</td>
+      			<td colspan="3">72 pièces / palettes</td>
       		</tr>
       		<tr>
       			<td>12/14 cm</td>
-      			<td colspan="3">56 µ / palettes</td>
+      			<td colspan="3">56 pièces / palettes</td>
       		</tr>
       	</tbody>
       </table>',
@@ -562,23 +562,23 @@
       		<tr>
       			<td rowspan="4"><span class="verticalCells">Diameters end end</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palettes</td>
+      			<td colspan="3">80 pièces / palettes</td>
       			<td colspan="4">-</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="4">72 µ / palettes</td>
-      			<td colspan="3">64 µ / palettes</td>
+      			<td colspan="4">72 pièces / palettes</td>
+      			<td colspan="3">64 pièces / palettes</td>
       		</tr>
       		<tr>
             <td>12/14 cm</td>
-      			<td colspan="4">56 µ / palettes</td>
-      			<td colspan="3">48 µ / palettes</td>
+      			<td colspan="4">56 pièces / palettes</td>
+      			<td colspan="3">48 pièces / palettes</td>
       		</tr>
       		<tr>
             <td>14/16 cm</td>
-      			<td colspan="4">42 µ / palettes</td>
-      			<td colspan="3">36 µ / palettes</td>
+      			<td colspan="4">42 pièces / palettes</td>
+      			<td colspan="3">36 pièces / palettes</td>
       		</tr>
       	</tbody>
       </table>',
@@ -702,7 +702,7 @@
       // Section-Contact
       'section_c_title' => 'Estamos en contacto',
       'section_c_tel_s' => 'Teléfono :',
-      'section_c_tel' => ' 06 74 90 65 96',
+      'section_c_tel' => ' 06 95 51 77 05',
       'section_c_mail_s' => 'Email :',
       'section_c_mail' => ' julien.procedes@orange.fr',
       'section_c_adresse_s' => 'Dirección :',
@@ -738,23 +738,23 @@
         <tr>
           <td rowspan="4">Perímetros extremo final</td>
           <td>19/23 cm</td>
-          <td colspan="3">160 µ / paleta</td>
+          <td colspan="3">160 pièces / paleta</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>23/26 cm</td>
-          <td colspan="4">150 µ / paleta</td>
+          <td colspan="4">150 pièces / paleta</td>
           <td>-</td>
         </tr>
         <tr>
           <td>26/29 cm</td>
-          <td colspan="5">130 µ / paleta</td>
+          <td colspan="5">130 pièces / paleta</td>
         </tr>
         <tr>
           <td>29 cm et plus</td>
           <td>-</td>
-          <td colspan="4">110 µ / paleta</td>
+          <td colspan="4">110 pièces / paleta</td>
         </tr>
       </table>',
       'acacia_table_2_title' => 'Estacas redondas',
@@ -771,24 +771,24 @@
         <tr>
           <td rowspan="4">Diámetros finos finos</td>
           <td>6/8 cm</td>
-          <td colspan="3">80 µ / paleta</td>
+          <td colspan="3">80 pièces / paleta</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>8/10 cm</td>
-          <td colspan="4">71 µ / paleta</td>
+          <td colspan="4">71 pièces / paleta</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>10/12 cm</td>
-          <td colspan="6">56 µ / paleta</td>
+          <td colspan="6">56 pièces / paleta</td>
         </tr>
         <tr>
           <td>12/15 cm</td>
-          <td colspan="6">42 µ / paleta</td>
+          <td colspan="6">42 pièces / paleta</td>
         </tr>
       </table>',
       // PRODUCTS Bois de chauffe
@@ -825,11 +825,11 @@
         <tr>
           <td rowspan="2">Perímetros finales finales</td>
           <td>24/29 cm</td>
-          <td colspan="3">130 µ / paleta</td>
+          <td colspan="3">130 pièces / paleta</td>
         </tr>
         <tr>
           <td>28 cm et +</td>
-          <td colspan="4">110 µ / paleta</td>
+          <td colspan="4">110 pièces / paleta</td>
         </tr>
       </table>',
       // PRODUCTS Pin
@@ -854,15 +854,15 @@
       		<tr>
       			<td rowspan="3"><span class="verticalCells">Diámetros extremo final</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / paleta</td>
+      			<td colspan="3">80 pièces / paleta</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="3">72 µ / paleta</td>
+      			<td colspan="3">72 pièces / paleta</td>
       		</tr>
       		<tr>
       			<td>12/14 cm</td>
-      			<td colspan="3">56 µ / paleta</td>
+      			<td colspan="3">56 pièces / paleta</td>
       		</tr>
       	</tbody>
       </table>',
@@ -882,23 +882,23 @@
       		<tr>
       			<td rowspan="4"><span class="verticalCells">Diámetros extremo final</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / paleta</td>
+      			<td colspan="3">80 pièces / paleta</td>
       			<td colspan="4">-</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="4">72 µ / paleta</td>
-      			<td colspan="3">64 µ / paleta</td>
+      			<td colspan="4">72 pièces / paleta</td>
+      			<td colspan="3">64 pièces / paleta</td>
       		</tr>
       		<tr>
             <td>12/14 cm</td>
-      			<td colspan="4">56 µ / paleta</td>
-      			<td colspan="3">48 µ / paleta</td>
+      			<td colspan="4">56 pièces / paleta</td>
+      			<td colspan="3">48 pièces / paleta</td>
       		</tr>
       		<tr>
             <td>14/16 cm</td>
-      			<td colspan="4">42 µ / paleta</td>
-      			<td colspan="3">36 µ / paleta</td>
+      			<td colspan="4">42 pièces / paleta</td>
+      			<td colspan="3">36 pièces / paleta</td>
       		</tr>
       	</tbody>
       </table>',
@@ -1021,7 +1021,7 @@
       // Section-Contact
       'section_c_title' => 'Bleiben wir in Kontakt',
       'section_c_tel_s' => 'Telefon :',
-      'section_c_tel' => ' 06 74 90 65 96',
+      'section_c_tel' => ' 06 95 51 77 05',
       'section_c_mail_s' => 'Email :',
       'section_c_mail' => ' julien.procedes@orange.fr',
       'section_c_adresse_s' => 'Adresse :',
@@ -1057,23 +1057,23 @@
         <tr>
           <td rowspan="4">Umfang Ende</td>
           <td>19/23 cm</td>
-          <td colspan="3">160 µ / palette</td>
+          <td colspan="3">160 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>23/26 cm</td>
-          <td colspan="4">150 µ / palette</td>
+          <td colspan="4">150 pièces / palette</td>
           <td>-</td>
         </tr>
         <tr>
           <td>26/29 cm</td>
-          <td colspan="5">130 µ / palette</td>
+          <td colspan="5">130 pièces / palette</td>
         </tr>
         <tr>
           <td>29 cm et plus</td>
           <td>-</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       'acacia_table_2_title' => 'Runde Einsätze',
@@ -1090,24 +1090,24 @@
         <tr>
           <td rowspan="4">Feine Enddurchmesser</td>
           <td>6/8 cm</td>
-          <td colspan="3">80 µ / palette</td>
+          <td colspan="3">80 pièces / palette</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>8/10 cm</td>
-          <td colspan="4">71 µ / palette</td>
+          <td colspan="4">71 pièces / palette</td>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
           <td>10/12 cm</td>
-          <td colspan="6">56 µ / palette</td>
+          <td colspan="6">56 pièces / palette</td>
         </tr>
         <tr>
           <td>12/15 cm</td>
-          <td colspan="6">42 µ / palette</td>
+          <td colspan="6">42 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Bois de chauffe
@@ -1144,11 +1144,11 @@
         <tr>
           <td rowspan="2">Perimeter spätes Ende</td>
           <td>24/29 cm</td>
-          <td colspan="3">130 µ / palette</td>
+          <td colspan="3">130 pièces / palette</td>
         </tr>
         <tr>
           <td>28 cm et +</td>
-          <td colspan="4">110 µ / palette</td>
+          <td colspan="4">110 pièces / palette</td>
         </tr>
       </table>',
       // PRODUCTS Pin
@@ -1173,15 +1173,15 @@
       		<tr>
       			<td rowspan="3"><span class="verticalCells">Durchmesser Ende Ende</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palette</td>
+      			<td colspan="3">80 pièces / palette</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="3">72 µ / palette</td>
+      			<td colspan="3">72 pièces / palette</td>
       		</tr>
       		<tr>
       			<td>12/14 cm</td>
-      			<td colspan="3">56 µ / palette</td>
+      			<td colspan="3">56 pièces / palette</td>
       		</tr>
       	</tbody>
       </table>',
@@ -1201,23 +1201,23 @@
       		<tr>
       			<td rowspan="4"><span class="verticalCells">Durchmesser Ende Ende</span></td>
       			<td>7/10 cm</td>
-      			<td colspan="3">80 µ / palette</td>
+      			<td colspan="3">80 pièces / palette</td>
       			<td colspan="4">-</td>
       		</tr>
       		<tr>
       			<td>10/12 cm</td>
-      			<td colspan="4">72 µ / palette</td>
-      			<td colspan="3">64 µ / palette</td>
+      			<td colspan="4">72 pièces / palette</td>
+      			<td colspan="3">64 pièces / palette</td>
       		</tr>
       		<tr>
             <td>12/14 cm</td>
-      			<td colspan="4">56 µ / palette</td>
-      			<td colspan="3">48 µ / palette</td>
+      			<td colspan="4">56 pièces / palette</td>
+      			<td colspan="3">48 pièces / palette</td>
       		</tr>
       		<tr>
             <td>14/16 cm</td>
-      			<td colspan="4">42 µ / palette</td>
-      			<td colspan="3">36 µ / palette</td>
+      			<td colspan="4">42 pièces / palette</td>
+      			<td colspan="3">36 pièces / palette</td>
       		</tr>
       	</tbody>
       </table>',
