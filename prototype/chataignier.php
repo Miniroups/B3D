@@ -1,20 +1,22 @@
-  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('parts/head.php'); ?>
-  <link rel="stylesheet" href="styles/produits.css">
-  <title><?= $_SESSION['translate']['chataigner_title']?></title>
+<?php require('parts/head.php'); ?>
+
+<link href="styles/produits.css" rel="stylesheet">
+
+<title><?= $LG['chataigner_title'] ?></title>
 </head>
-
-<?php include('parts/header.php'); ?>
-
 <body>
-<h1><?= $_SESSION['translate']['chataigner_h1']?></h1>
+
+<?php require('parts/header.php'); ?>
+
+<h1><?= $LG['chataigner_h1'] ?></h1>
 <section id="produits">
   <div>
-    <h3><?= $_SESSION['translate']['chataigner_use']?></h3>
-    <p><?= $_SESSION['translate']['chataigner_use_p']?>
+    <h3><?= $LG['chataigner_use'] ?></h3>
+    <p><?= $LG['chataigner_use_p'] ?>
     </p>
   </div>
 </section>
+
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#indicateurs" data-slide-to="0" class="active"></li>
@@ -25,21 +27,21 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/Ch1.JPG" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['chataigner_carousel_1']?></h5>
+        <h5><?= $LG['chataigner_carousel_1'] ?></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ch2.JPG" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['chataigner_carousel_2']?></h5>
+        <h5><?= $LG['chataigner_carousel_2'] ?></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ch3.JPG" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['chataigner_carousel_3']?></h5>
+        <h5><?= $LG['chataigner_carousel_3'] ?></h5>
         <p></p>
       </div>
     </div>
@@ -54,21 +56,17 @@
   </a>
 </div>
 
-  <section id="details">
+<section id="details">
+  <div>
+    <h3><?= $LG['chataigner_table_1_title'] ?></h3>
+    <?= $LG['chataigner_table_1_content'] ?>
+  </div>
+</section>
 
-    <div>
-      <h3><?= $_SESSION['translate']['chataigner_table_1_title']?></h3>
-      <?= $_SESSION['translate']['chataigner_table_1_content']?>
-    </div>
+<?php require('parts/section-contact.php'); ?>
 
-  </section>
+<?php require('parts/modal.php'); ?>
 
-  <!-- INCLUDE DE LA SECTION CONTACT -->
-  <?php include_once('parts/section-contact.php'); ?>
-  <!-- INCLUDE DU MODAL -->
-  <?php include_once('parts/modal.php'); ?>
-  <!-- INCLUDE DU FOOTER -->
-  <?php include_once('parts/footer.php'); ?>
+<?php require('parts/footer.php'); ?>
 </body>
-
 </html>

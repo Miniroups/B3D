@@ -4,6 +4,8 @@ if($_SERVER['REQUEST_METHOD'] !== 'POST') { exit; }
 
 session_start();
 
+require('translations.php');
+
 require 'lib/form-data.class.php';
 
 $destination = 'julien.procedes@orange.fr';
@@ -34,41 +36,22 @@ $validationFunctions = [
 
 $errorMessages = [
 
-  'unexpected' => $_SESSION['translate']['form_error_message_1'],
-  'required'   => $_SESSION['translate']['form_error_message_2'],
-  'max-length' => $_SESSION['translate']['form_error_message_3'],
-  'specials'   => $_SESSION['translate']['form_error_message_4'],
+  'unexpected' => $LG['form_error_message_1'],
+  'required'   => $LG['form_error_message_2'],
+  'max-length' => $LG['form_error_message_3'],
+  'specials'   => $LG['form_error_message_4'],
 
-  'raison-sociale' => $_SESSION['translate']['form_error_message_5'],
-  'postal-code'    => $_SESSION['translate']['form_error_message_6'],
-  'email'          => $_SESSION['translate']['form_error_message_7'],
-  'phone'          => $_SESSION['translate']['form_error_message_8']
+  'raison-sociale' => $LG['form_error_message_5'],
+  'postal-code'    => $LG['form_error_message_6'],
+  'email'          => $LG['form_error_message_7'],
+  'phone'          => $LG['form_error_message_8']
 ];
 
 $statusMessages = [
 
-  $_SESSION['translate']['form_status_message_1'],
-  $_SESSION['translate']['form_status_message_2']
+  $LG['form_status_message_1'],
+  $LG['form_status_message_2']
 ];
-
-//$errorMessages = [
-//
-//  'unexpected' => 'WARNING: unexpected input !',
-//  'required'   => 'Information requise',
-//  'max-length' => 'Information trop longue',
-//  'specials'   => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
-//
-//  'raison-sociale' => 'Choix invalide',
-//  'postal-code'    => 'Format invalide',
-//  'email'          => 'Adresse invalide',
-//  'phone'          => 'Format invalide'
-//];
-//
-//$statusMessages = [
-//
-//  "Votre message a bien été envoyé.",
-//  "Une erreur s'est produite. Veuillez réessayer ultérieurement."
-//];
 
 $formData = new FormData($_POST, $inputDescriptions, $validationFunctions, $errorMessages);
 

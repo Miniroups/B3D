@@ -1,19 +1,20 @@
-  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('parts/head.php'); ?>
-  <link rel="stylesheet" href="styles/produits.css">
-  <title><?= $_SESSION['translate']['bois_chauffe_title'];?></title>
+<?php require('parts/head.php'); ?>
+
+<link href="styles/produits.css" rel="stylesheet" >
+
+<title><?= $LG['bois_chauffe_title'] ?></title>
 </head>
-
-<?php include('parts/header.php'); ?>
-
 <body>
-<h1><?= $_SESSION['translate']['bois_chauffe_h1'];?></h1>
-  <section id="details">
-    <div class="text-center">
-      <h3><?= $_SESSION['translate']['bois_chauffe_carac'];?></h3>
-      <p><?= $_SESSION['translate']['bois_chauffe_carac_p']?></p>
-    </div>
-  </section>
+
+<?php require('parts/header.php'); ?>
+
+<h1><?= $LG['bois_chauffe_h1'] ?></h1>
+<section id="details">
+  <div class="text-center">
+    <h3><?= $LG['bois_chauffe_carac'] ?></h3>
+    <p><?= $LG['bois_chauffe_carac_p'] ?></p>
+  </div>
+</section>
   
 <div id="indicateurs" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -25,21 +26,21 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/Ac1.JPG" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_1'];?></h5>
+        <h5><?= $LG['bois_chauffe_carousel_1'] ?></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ac2.JPG" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_2'];?></h5>
+        <h5><?= $LG['bois_chauffe_carousel_2'] ?></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/Ac3.JPG" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?= $_SESSION['translate']['bois_chauffe_carousel_3'];?></h5>
+        <h5><?= $LG['bois_chauffe_carousel_3'] ?></h5>
         <p></p>
       </div>
     </div>
@@ -54,12 +55,10 @@
   </a>
 </div>
 
-  <!-- INCLUDE DE LA SECTION CONTACT -->
-  <?php include_once('parts/section-contact.php'); ?>
-  <!-- INCLUDE DU MODAL -->
-  <?php include_once('parts/modal.php'); ?>
-  <!-- INCLUDE DU FOOTER -->
-  <?php include_once('parts/footer.php'); ?>
-</body>
+<?php require('parts/section-contact.php'); ?>
 
+<?php require('parts/modal.php'); ?>
+
+<?php require('parts/footer.php'); ?>
+</body>
 </html>

@@ -1,99 +1,96 @@
-  <!-- INCLUDE DU HEAD + SPECIFICITEES A LA PAGE -->
-  <?php include_once('parts/head.php'); ?>
-  <link rel="stylesheet" href="styles/contact.css">
-  <title><?= $_SESSION['translate']['contact_title'];?></title>
+<?php require('parts/head.php'); ?>
+
+<link href="styles/contact.css" rel="stylesheet">
+
+<title><?= $LG['contact_title'] ?></title>
 </head>
+<body>
 
-  <body>
-    <!-- INCLUDE DU HEADER -->
-    <?php include('parts/header.php'); ?>
-    <!-- Coordonnées -->
-    <div class="section-contact">
-      <?php include_once('parts/section-contact.php'); ?>
-    </div>
+<?php require('parts/header.php'); ?>
 
-    <section id="contact-form-section">
+<?php require('parts/section-contact.php'); ?>
 
+<section id="contact-form-section">
 <form class="contact-form container-fluid" name="contact-form" autocomplete="on">
 
 <div class="row">
 <div class="form-group col-md-4">
-<label for="identification" class="required"><?= $_SESSION['translate']['form_field_1_1'];?></label>
-<select class="form-control" name="raison-sociale">
-<option value="" selected><?= $_SESSION['translate']['form_field_1_2'];?></option>
-<option value="particulier"><?= $_SESSION['translate']['form_field_1_3'];?></option>
-<option value="professionnel"><?= $_SESSION['translate']['form_field_1_4'];?></option>
-<option value="autre"><?= $_SESSION['translate']['form_field_1_5'];?></option>
+<label for="raison-sociale" class="required"><?= $LG['form_field_1_1'] ?></label>
+<select id="raison-sociale" class="form-control" name="raison-sociale">
+<option value="" selected><?= $LG['form_field_1_2'] ?></option>
+<option value="particulier"><?= $LG['form_field_1_3'] ?></option>
+<option value="professionnel"><?= $LG['form_field_1_4'] ?></option>
+<option value="autre"><?= $LG['form_field_1_5'] ?></option>
 </select>
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-4">
-<label for="first-name" class="required"><?= $_SESSION['translate']['form_field_2'];?></label>
-<input id="first-name" class="form-control" name="first-name" type="text" placeholder="<?= $_SESSION['translate']['form_field_2_placeholder'] ?>">
+<label for="first-name" class="required"><?= $LG['form_field_2'] ?></label>
+<input id="first-name" class="form-control" name="first-name" type="text" placeholder="<?= $LG['form_field_2_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-4">
-<label for="last-name" class="required"><?= $_SESSION['translate']['form_field_3'];?></label>
-<input id="last-name" class="form-control" name="last-name" type="text" placeholder="<?= $_SESSION['translate']['form_field_3_placeholder'] ?>">
+<label for="last-name" class="required"><?= $LG['form_field_3'] ?></label>
+<input id="last-name" class="form-control" name="last-name" type="text" placeholder="<?= $LG['form_field_3_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
 
 <div class="row">
 <div class="form-group col-md-6">
-<label for="address"><?= $_SESSION['translate']['form_field_4'];?></label>
-<input id="address" class="form-control" name="address" type="text" placeholder="<?= $_SESSION['translate']['form_field_4_placeholder'] ?>">
+<label for="address"><?= $LG['form_field_4'] ?></label>
+<input id="address" class="form-control" name="address" type="text" placeholder="<?= $LG['form_field_4_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-3">
-<label for="postal-code" class="required"><?= $_SESSION['translate']['form_field_5'];?></label>
-<input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="<?= $_SESSION['translate']['form_field_5_placeholder'] ?>">
+<label for="postal-code" class="required"><?= $LG['form_field_5'] ?></label>
+<input id="postal-code" class="form-control" name="postal-code" type="text" placeholder="<?= $LG['form_field_5_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-3">
-<label for="city" class="required"><?= $_SESSION['translate']['form_field_6'];?></label>
-<input id="city" class="form-control" name="city" type="text" placeholder="<?= $_SESSION['translate']['form_field_6_placeholder'] ?>">
+<label for="city" class="required"><?= $LG['form_field_6'] ?></label>
+<input id="city" class="form-control" name="city" type="text" placeholder="<?= $LG['form_field_6_placeholder'] ?>">
 <div class="error-message"></div>
-</div>
+<!-- form-group --></div>
 <!-- row --></div>
 
 <div class="row">
 <div class="form-group col-md-6">
-<label for="email" class="required"><?= $_SESSION['translate']['form_field_7'];?></label>
-<input id="email" class="form-control" name="email" type="email" placeholder="<?= $_SESSION['translate']['form_field_7_placeholder'] ?>">
+<label for="email" class="required"><?= $LG['form_field_7'] ?></label>
+<input id="email" class="form-control" name="email" type="email" placeholder="<?= $LG['form_field_7_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 
 <div class="form-group col-md-6">
-<label for="telephone"><?= $_SESSION['translate']['form_field_8'];?></label>
-<input id="phone" class="form-control" name="phone" type="text" placeholder="<?= $_SESSION['translate']['form_field_8_placeholder'] ?>">
+<label for="telephone"><?= $LG['form_field_8'] ?></label>
+<input id="phone" class="form-control" name="phone" type="text" placeholder="<?= $LG['form_field_8_placeholder'] ?>">
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
 
 <div class="row">
 <div class="form-group col-md-12">
-<label for="message" class="required"><?= $_SESSION['translate']['form_field_9'];?></label>
-<textarea id="message" class="form-control" name="message" placeholder="<?= $_SESSION['translate']['form_field_9_placeholder'] ?>" rows="3" maxlength="3000"></textarea>
+<label for="message" class="required"><?= $LG['form_field_9'] ?></label>
+<textarea id="message" class="form-control" name="message" placeholder="<?= $LG['form_field_9_placeholder'] ?>" rows="3" maxlength="3000"></textarea>
 <div class="error-message"></div>
 <!-- form-group --></div>
 <!-- row --></div>
 
 <div class="row">
-<div id="required-sign-description" class="col-md-12"><span id="required-sign"></span><?= $_SESSION['translate']['form_p_1'];?></div>
+<div id="required-sign-description" class="col-md-12"><span id="required-sign"></span><?= $LG['form_p_1'] ?></div>
 <!-- row --></div>
 
 <div class="row">
 <div class="form-group col-md-12">
-<label for="opt-in-checkbox"><input id="opt-in-checkbox" type="checkbox"><?= $_SESSION['translate']['form_p_2'];?></label>
+<label for="opt-in-checkbox"><input id="opt-in-checkbox" type="checkbox"><?= $LG['form_p_2'] ?></label>
 <!-- form-group --></div>
 <!-- row --></div>
 
-<button id="contact-form-submit-button" class="btn btn-primary" disabled><?= $_SESSION['translate']['form_submit'];?></button>
+<button id="contact-form-submit-button" class="btn btn-primary" disabled><?= $LG['form_submit'] ?></button>
 <div id="status-message" class="col-md-12"></div>
 </form>
 
@@ -154,10 +151,8 @@ function ContactForm(url) {
 }
 
 </script>
+</section>
 
-    </section>
-
-    <!-- INCLUDE DU FOOTER -->
-    <?php include_once('parts/footer.php'); ?>
-  </body>
+<?php require('parts/footer.php'); ?>
+</body>
 </html>
