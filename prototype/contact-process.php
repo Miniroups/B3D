@@ -2,6 +2,8 @@
 
 if($_SERVER['REQUEST_METHOD'] !== 'POST') { exit; }
 
+session_start();
+
 require 'lib/form-data.class.php';
 
 $destination = 'julien.procedes@orange.fr';
@@ -32,22 +34,41 @@ $validationFunctions = [
 
 $errorMessages = [
 
-  'unexpected' => 'WARNING: unexpected input !',
-  'required'   => 'Information requise',
-  'max-length' => 'Information trop longue',
-  'specials'   => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
+  'unexpected' => $_SESSION['translate']['form_error_message_1'],
+  'required'   => $_SESSION['translate']['form_error_message_2'],
+  'max-length' => $_SESSION['translate']['form_error_message_3'],
+  'specials'   => $_SESSION['translate']['form_error_message_4'],
 
-  'raison-sociale' => 'Choix invalide',
-  'postal-code'    => 'Format invalide',
-  'email'          => 'Adresse invalide',
-  'phone'          => 'Format invalide'
+  'raison-sociale' => $_SESSION['translate']['form_error_message_5'],
+  'postal-code'    => $_SESSION['translate']['form_error_message_6'],
+  'email'          => $_SESSION['translate']['form_error_message_7'],
+  'phone'          => $_SESSION['translate']['form_error_message_8']
 ];
 
 $statusMessages = [
 
-  "Votre message a bien été envoyé.",
-  "Une erreur s'est produite. Veuillez réessayer ultérieurement."
+  $_SESSION['translate']['form_status_message_1'],
+  $_SESSION['translate']['form_status_message_2']
 ];
+
+//$errorMessages = [
+//
+//  'unexpected' => 'WARNING: unexpected input !',
+//  'required'   => 'Information requise',
+//  'max-length' => 'Information trop longue',
+//  'specials'   => 'Caractères rejetés: &amp; &quot; &lt; &gt;',
+//
+//  'raison-sociale' => 'Choix invalide',
+//  'postal-code'    => 'Format invalide',
+//  'email'          => 'Adresse invalide',
+//  'phone'          => 'Format invalide'
+//];
+//
+//$statusMessages = [
+//
+//  "Votre message a bien été envoyé.",
+//  "Une erreur s'est produite. Veuillez réessayer ultérieurement."
+//];
 
 $formData = new FormData($_POST, $inputDescriptions, $validationFunctions, $errorMessages);
 
