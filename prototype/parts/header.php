@@ -21,10 +21,10 @@
   <li>
     <a><?= $LG['menu_products'] ?></a>
     <ul class="sub-menu">
-      <li><a href="acacia.php">Acacia</a></li>
-      <li><a href="pin.php">Châtaignier</a></li>
-      <li><a href="chataignier.php">Pin</a></li>
-      <li><a href="bois-de-chauffe.php">Bois de chauffe</a></li>
+      <li><a href="acacia.php"><?= $LG['menu_products_acacia'] ?></a></li>
+      <li><a href="pin.php"><?= $LG['menu_products_pine'] ?></a></li>
+      <li><a href="chataignier.php"><?= $LG['menu_products_chestnut'] ?></a></li>
+      <li><a href="bois-de-chauffe.php"><?= $LG['menu_products_wood'] ?></a></li>
     </ul>
 
     <div class="nav-panel">
