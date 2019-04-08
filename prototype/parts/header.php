@@ -97,7 +97,7 @@
 
     var collapseBreakpoint = 992;
 
-    var mode = (screen.width < collapseBreakpoint) ? 'collapse' : 'expand';
+    var mode = (window.innerWidth < collapseBreakpoint) ? 'collapse' : 'expand';
 
     window.addEventListener('resize', function(e) {
 
